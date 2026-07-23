@@ -88,8 +88,8 @@ def head(title, desc, canonical, extra_css="", schemas=None):
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-logo-c-192.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon-logo-c.png">
-<meta property="og:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og.jpg">
-<meta property="og:image:secure_url" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og.jpg">
+<meta property="og:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og-logo-original.jpg">
+<meta property="og:image:secure_url" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og-logo-original.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -97,7 +97,7 @@ def head(title, desc, canonical, extra_css="", schemas=None):
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Mauricio Ruiz | IA e Automação Empresarial">
 <meta name="twitter:description" content="Estratégia antes da ferramenta. Mentoria, agentes de IA e automações para reduzir tarefas repetitivas e transformar tecnologia em resultado.">
-<meta name="twitter:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og.jpg">
+<meta name="twitter:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og-logo-original.jpg">
 <meta name="theme-color" content="#101828">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
