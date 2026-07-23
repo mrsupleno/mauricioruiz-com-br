@@ -9,16 +9,16 @@ ROOT = pathlib.Path("/root/projects/mauricioruiz-com-br")
 def legal_page(title, h1, sections, canonical):
     BC = [("Início","/"),(h1,None)]
     body = "\n".join(f"""
-    <h2 style="font-size:22px;font-weight:700;color:#101828;margin:36px 0 12px;">{t}</h2>
+    <h2 style="font-size:22px;font-weight:700;color:#0B1026;margin:36px 0 12px;">{t}</h2>
     <p style="font-size:15.5px;line-height:1.7;color:#475467;">{p}</p>""" for t, p in sections)
     MAIN = f"""
 {breadcrumb(BC)}
 <section style="background:#ffffff;padding:72px 24px 88px;">
   <div style="max-width:840px;margin:0 auto;">
-    <h1 style="font-size:36px;font-weight:800;color:#101828;margin-bottom:8px;">{h1}</h1>
+    <h1 style="font-size:36px;font-weight:800;color:#0B1026;margin-bottom:8px;">{h1}</h1>
     <p style="font-size:14px;color:#667085;margin-bottom:20px;">Última atualização: julho de 2026</p>
     {body}
-    <h2 style="font-size:22px;font-weight:700;color:#101828;margin:36px 0 12px;">Contato</h2>
+    <h2 style="font-size:22px;font-weight:700;color:#0B1026;margin:36px 0 12px;">Contato</h2>
     <p style="font-size:15.5px;line-height:1.7;color:#475467;">Mauricio Ruiz | Mentor de Inteligência Artificial — Rua Marajó, 77, Unidade 402, Praia da Costa, Vila Velha – ES, CEP 29101-250. WhatsApp: (27) 92000-0167.</p>
   </div>
 </section>"""
@@ -85,6 +85,7 @@ urls = [
     ("/sobre/", "0.7", "monthly"),
     ("/diagnostico-de-ia/", "0.9", "monthly"),
     ("/contato/", "0.6", "yearly"),
+    ("/blog/", "0.7", "monthly"),
     ("/politica-de-privacidade/", "0.2", "yearly"),
     ("/politica-de-cookies/", "0.2", "yearly"),
     ("/termos-de-uso/", "0.2", "yearly"),
@@ -106,10 +107,10 @@ print("OK sitemap.xml")
 MAIN_404 = """
 <section style="background:#ffffff;padding:120px 24px;text-align:center;">
   <div style="max-width:640px;margin:0 auto;">
-    <p style="font-size:64px;font-weight:800;color:#12B76A;margin-bottom:12px;">404</p>
-    <h1 style="font-size:32px;font-weight:700;color:#101828;margin-bottom:16px;">Esta página não existe</h1>
+    <p style="font-size:64px;font-weight:800;color:#00A3D7;margin-bottom:12px;">404</p>
+    <h1 style="font-size:32px;font-weight:700;color:#0B1026;margin-bottom:16px;">Esta página não existe</h1>
     <p style="font-size:16.5px;color:#475467;margin-bottom:32px;">O endereço pode ter mudado ou foi digitado incorretamente.</p>
-    <a href="/" style="display:inline-block;background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Voltar para o início</a>
+    <a href="/" style="display:inline-block;background:#00A3D7;color:#0B1026;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Voltar para o início</a>
   </div>
 </section>"""
 (ROOT/"404.html").write_text(page(
