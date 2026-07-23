@@ -1,21 +1,901 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maurício Ruiz</title>
-  <style>
-    body { margin: 0; display: flex; align-items: center; justify-content: center;
-           min-height: 100vh; font-family: sans-serif; background: #f5f5f5; color: #333; }
-    .box { text-align: center; }
-    h1 { font-size: 2rem; margin-bottom: 8px; }
-    p { color: #777; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mauricio Ruiz | Mentor de Inteligência Artificial</title>
+<meta name="description" content="Mentoria e implantação de agentes de IA, automações e processos para reduzir tarefas repetitivas, melhorar o atendimento e transformar tecnologia em resultado empresarial. Vila Velha, ES, e todo o Brasil.">
+<link rel="canonical" href="https://mauricioruiz.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mauricio Ruiz | Mentor de Inteligência Artificial">
+<meta property="og:description" content="Estratégia antes da ferramenta. Mentoria e implantação de IA, agentes e automação para empresas.">
+<meta property="og:url" content="https://mauricioruiz.com.br/">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#101828">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#ffffff;color:#1D2939;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+  *{box-sizing:border-box;}
+  a{color:#2E6CE6;text-decoration:none;}
+  a:hover{color:#087A48;}
+  h1,h2,h3{font-family:'Manrope',sans-serif;margin:0;letter-spacing:-0.02em;}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important;animation:none !important;} }
+</style>
+
+
+<style>
+:root{--grafite:#101828;--verde:#12B76A;}
+html{scroll-behavior:smooth;}
+section[id],footer[id]{scroll-margin-top:88px;}
+body{margin:0;background:#ffffff;color:#1D2939;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+*{box-sizing:border-box;}
+a{color:#2E6CE6;text-decoration:none;}
+a:hover{color:#087A48;}
+h1,h2,h3{font-family:'Manrope',sans-serif;margin:0;letter-spacing:-0.02em;}
+summary::-webkit-details-marker{display:none;}
+summary:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #12B76A;outline-offset:2px;}
+details[open] .faq-icon{transform:rotate(45deg);}
+.faq-icon{transition:transform .2s;display:inline-block;}
+.skip-link{position:absolute;left:-9999px;top:0;background:#12B76A;color:#101828;padding:12px 20px;font-weight:600;z-index:999;}
+.skip-link:focus{left:16px;top:16px;}
+@media (max-width:1023px){
+  .desktop-nav{display:none !important;}
+  #burgerBtn{display:flex !important;align-items:center;justify-content:center;}
+}
+@media (min-width:1024px){#mobileMenu{display:none !important;}}
+@media (max-width:899px){
+  .g-hero,.g-sobre,.g-pq,.g-2,.g-footer{grid-template-columns:1fr !important;}
+  .g-4,.g-5,.g-3,.g-7{grid-template-columns:1fr 1fr !important;}
+  h1{font-size:34px !important;}
+  .two-col,.cards-3{grid-template-columns:1fr !important;}
+}
+@media (max-width:559px){
+  .g-4,.g-5,.g-3,.g-7,.g-pqi{grid-template-columns:1fr !important;}
+  form#diagForm{grid-template-columns:1fr !important;}
+  h1{font-size:28px !important;}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important;}html{scroll-behavior:auto !important;}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Mauricio Ruiz | Mentor de Inteligência Artificial",
+  "url": "https://mauricioruiz.com.br/",
+  "telephone": "+55-27-92000-0167",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Marajó, 77, Unidade 402",
+    "addressLocality": "Vila Velha",
+    "addressRegion": "ES",
+    "postalCode": "29101-250",
+    "addressCountry": "BR"
+  },
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "areaServed": ["Vila Velha", "Vitória", "Grande Vitória", "Espírito Santo", "Brasil"]
+}
+</script>
 </head>
 <body>
-  <div class="box">
-    <h1>Maurício Ruiz</h1>
-    <p>Em breve</p>
+
+
+<a href="#conteudo" style="position:absolute;left:-9999px;top:0;background:#12B76A;color:#101828;padding:12px 20px;font-weight:600;z-index:999">Pular para o conteúdo</a>
+
+<header style="position:sticky;top:0;z-index:50;background:#ffffff;border-bottom:1px solid #E4E7EC;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;">
+    <a href="#topo" style="display:flex;flex-direction:column;color:#101828;line-height:1.1;">
+      <span style="font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;">Mauricio Ruiz</span>
+      <span style="font-size:12px;color:#667085;font-weight:500;">Mentor de Inteligência Artificial</span>
+    </a>
+    <nav style="display:flex;align-items:center;gap:28px;" class="desktop-nav" id="mainNav">
+      <a href="#confronto" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Início</a>
+      <a href="#mentoria" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Mentoria</a>
+      <a href="#agentes" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Agentes de IA</a>
+      <a href="#servicos" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Automação</a>
+      <a href="#sobre" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Sobre</a>
+      <a href="#conteudos" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Conteúdos</a>
+      <a href="#contato" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Contato</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <a href="#diagnostico" style="background:#12B76A;color:#101828;font-weight:700;font-size:14px;padding:12px 20px;border-radius:8px;white-space:nowrap;">Solicitar diagnóstico</a>
+      <button id="burgerBtn" onclick="void(0)" aria-label="Abrir menu" aria-expanded="false" style="display:none;background:none;border:1px solid #E4E7EC;border-radius:8px;width:44px;height:44px;font-size:20px;cursor:pointer;">☰</button>
+    </div>
   </div>
+  
+    <nav id="mobileMenu" style="display:none;flex-direction:column;padding:8px 24px 20px;gap:4px;border-top:1px solid #E4E7EC;background:#fff;">
+      <a href="#confronto" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Início</a>
+      <a href="#mentoria" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Mentoria</a>
+      <a href="#agentes" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Agentes de IA</a>
+      <a href="#servicos" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Automação</a>
+      <a href="#sobre" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Sobre</a>
+      <a href="#conteudos" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Conteúdos</a>
+      <a href="#contato" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;">Contato</a>
+    </nav>
+  
+</header>
+
+<main id="conteudo"><span id="topo" style="position:absolute;top:0;"></span>
+
+<section style="background:#ffffff;padding:64px 24px 80px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:center;" class="g-hero">
+    <div>
+      <span style="display:inline-block;background:#F7F8FA;border:1px solid #E4E7EC;color:#1D2939;font-size:13px;font-weight:600;padding:8px 14px;border-radius:100px;margin-bottom:24px;">IA, Automação e Marketing para Empresas</span>
+      <h1 style="font-size:48px;line-height:1.12;font-weight:800;color:#101828;margin-bottom:24px;max-width:640px;">Sua empresa precisa de Inteligência Artificial ou está apenas acumulando ferramentas?</h1>
+      <p style="font-size:19px;line-height:1.6;color:#475467;max-width:560px;margin-bottom:32px;">Mentoria e implantação de agentes de IA, automações e processos para reduzir tarefas repetitivas, melhorar o atendimento e transformar tecnologia em resultado empresarial.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:28px;">
+        <a href="#diagnostico" style="background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">Solicitar diagnóstico de IA</a>
+        <a href="#servicos" style="background:#fff;border:1px solid #D0D5DD;color:#101828;font-weight:600;font-size:16px;padding:16px 26px;border-radius:8px;">Ver aplicações práticas</a>
+      </div>
+      <p style="font-size:14px;color:#667085;margin-bottom:20px;">Atendimento estratégico em Vila Velha e projetos para empresas de todo o Brasil.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:20px;">
+        <span style="font-size:13px;color:#475467;display:flex;align-items:center;gap:8px;"><span style="width:6px;height:6px;border-radius:50%;background:#12B76A;display:inline-block;"></span>Mais de 20 anos em desenvolvimento humano e negócios</span>
+        <span style="font-size:13px;color:#475467;display:flex;align-items:center;gap:8px;"><span style="width:6px;height:6px;border-radius:50%;background:#12B76A;display:inline-block;"></span>Estratégia antes da ferramenta</span>
+        <span style="font-size:13px;color:#475467;display:flex;align-items:center;gap:8px;"><span style="width:6px;height:6px;border-radius:50%;background:#12B76A;display:inline-block;"></span>Implantação orientada a processos e resultados</span>
+      </div>
+    </div>
+    <div>
+      <div style="position:relative;width:100%;aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:#F7F8FA;">
+        <img id="hero-photo" src="/assets/mauricio-ruiz-hero.webp" srcset="assets/mauricio-ruiz-hero.webp 800w, assets/mauricio-ruiz-hero@2x.webp 889w" sizes="(max-width: 899px) 100vw, 45vw" alt="Mauricio Ruiz em ambiente empresarial, vestindo terno azul-marinho e segurando um tablet" width="889" height="1112" fetchpriority="high" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div style="margin-top:20px;background:#101828;border-radius:12px;padding:18px 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center;">
+        <span style="color:#fff;font-size:13px;font-weight:600;">Atendimento</span>
+        <span style="color:#667085;">→</span>
+        <span style="color:#12B76A;font-size:13px;font-weight:600;">Agente de IA</span>
+        <span style="color:#667085;">→</span>
+        <span style="color:#fff;font-size:13px;font-weight:600;">CRM</span>
+        <span style="color:#667085;">→</span>
+        <span style="color:#fff;font-size:13px;font-weight:600;">Equipe</span>
+        <span style="color:#667085;">→</span>
+        <span style="color:#12B76A;font-size:13px;font-weight:600;">Resultado</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="confronto" style="background:#F7F8FA;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="max-width:760px;">
+      <h2 style="font-size:34px;font-weight:700;color:#101828;margin-bottom:20px;">O problema não é a falta de tecnologia</h2>
+      <p style="font-size:17px;line-height:1.7;color:#475467;margin-bottom:16px;">Sua empresa provavelmente já usa WhatsApp, planilhas, sistemas, redes sociais e alguma ferramenta de Inteligência Artificial.</p>
+      <p style="font-size:17px;line-height:1.7;color:#475467;margin-bottom:28px;">Mesmo assim, a equipe continua repetindo tarefas, procurando informações, respondendo às mesmas perguntas e deixando oportunidades comerciais sem acompanhamento.</p>
+      <p style="font-size:26px;line-height:1.4;font-weight:700;color:#101828;margin-bottom:52px;">Automatizar um processo ruim só faz o erro acontecer mais rápido.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;" class="g-4">
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;padding:26px 22px;">
+          <h3 style="font-size:17px;font-weight:700;color:#101828;margin-bottom:10px;">Atendimento lento</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#667085;">Clientes esperam enquanto a equipe procura informações ou depende de alguém para responder.</p>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;padding:26px 22px;">
+          <h3 style="font-size:17px;font-weight:700;color:#101828;margin-bottom:10px;">Leads esquecidos</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#667085;">Contatos chegam, mas não existe processo consistente de qualificação e acompanhamento.</p>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;padding:26px 22px;">
+          <h3 style="font-size:17px;font-weight:700;color:#101828;margin-bottom:10px;">Retrabalho diário</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#667085;">Dados são copiados entre planilhas, mensagens, sistemas e relatórios.</p>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;padding:26px 22px;">
+          <h3 style="font-size:17px;font-weight:700;color:#101828;margin-bottom:10px;">Dependência do proprietário</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#667085;">A operação trava porque as decisões e informações continuam concentradas em poucas pessoas.</p>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+<section style="background:#101828;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="max-width:760px;margin-bottom:44px;">
+      <h2 style="font-size:34px;font-weight:700;color:#fff;margin-bottom:20px;">Onde sua empresa está perdendo tempo sem perceber?</h2>
+      <p style="font-size:17px;line-height:1.7;color:#98A2B3;margin-bottom:10px;">O desperdício raramente aparece com esse nome no relatório financeiro. Ele aparece em:</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:52px;" class="g-5">
+      
+        <div style="background:#1D2939;border-radius:10px;padding:20px 16px;text-align:center;">
+          <p style="font-size:14px;color:#E4E7EC;line-height:1.5;">Horas desperdiçadas</p>
+        </div>
+      
+        <div style="background:#1D2939;border-radius:10px;padding:20px 16px;text-align:center;">
+          <p style="font-size:14px;color:#E4E7EC;line-height:1.5;">Respostas atrasadas</p>
+        </div>
+      
+        <div style="background:#1D2939;border-radius:10px;padding:20px 16px;text-align:center;">
+          <p style="font-size:14px;color:#E4E7EC;line-height:1.5;">Falta de acompanhamento</p>
+        </div>
+      
+        <div style="background:#1D2939;border-radius:10px;padding:20px 16px;text-align:center;">
+          <p style="font-size:14px;color:#E4E7EC;line-height:1.5;">Informações duplicadas</p>
+        </div>
+      
+        <div style="background:#1D2939;border-radius:10px;padding:20px 16px;text-align:center;">
+          <p style="font-size:14px;color:#E4E7EC;line-height:1.5;">Oportunidades perdidas</p>
+        </div>
+      
+    </div>
+    <div style="background:#1D2939;border-radius:16px;padding:36px;text-align:center;margin-bottom:36px;">
+      <p style="font-size:24px;font-weight:700;color:#12B76A;line-height:1.4;max-width:820px;margin:0 auto;">Qual tarefa sua empresa ainda faz manualmente apenas porque ninguém parou para redesenhar o processo?</p>
+    </div>
+    <div style="text-align:center;">
+      <a href="#diagnostico" style="display:inline-block;background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px 30px;border-radius:8px;">Quero identificar os gargalos</a>
+    </div>
+  </div>
+</section>
+
+<section id="mentoria" style="background:#ffffff;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <span style="display:inline-block;background:#F7F8FA;border:1px solid #E4E7EC;color:#12B76A;font-size:13px;font-weight:700;padding:6px 14px;border-radius:100px;margin-bottom:20px;">Serviço principal</span>
+    <h2 style="font-size:36px;font-weight:700;color:#101828;margin-bottom:20px;max-width:720px;">Mentoria de Implantação de Inteligência Artificial</h2>
+    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:680px;margin-bottom:16px;">A mentoria transforma a intenção de usar IA em um plano de implantação.</p>
+    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:680px;margin-bottom:52px;">O trabalho começa pelo negócio, pelos processos e pelos resultados esperados. Só depois são escolhidas as ferramentas.</p>
+    <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:40px;" class="g-7">
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">01</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Diagnóstico</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Identificamos gargalos, desperdícios, riscos e oportunidades.</p>
+        </div>
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">02</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Mapeamento</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Entendemos como as tarefas realmente acontecem dentro da empresa.</p>
+        </div>
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">03</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Priorização</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Separamos o que parece moderno do que realmente pode gerar resultado.</p>
+        </div>
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">04</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Planejamento</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Definimos objetivos, responsabilidades, ferramentas e critérios.</p>
+        </div>
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">05</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Implantação</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Construímos agentes, automações, integrações e processos.</p>
+        </div>
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">06</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Treinamento</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Preparamos empresários e equipes para utilizar a nova estrutura.</p>
+        </div>
+      
+        <div style="border-top:3px solid #12B76A;padding-top:16px;">
+          <span style="font-size:13px;font-weight:700;color:#12B76A;">07</span>
+          <h3 style="font-size:15.5px;font-weight:700;color:#101828;margin:6px 0 8px;">Medição</h3>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Comparamos tempo, eficiência, resposta, custo e qualidade.</p>
+        </div>
+      
+    </div>
+    <p style="font-size:20px;font-weight:700;color:#101828;margin-bottom:32px;max-width:640px;">IA sem direção vira despesa. Com processo, pode virar capacidade operacional.</p>
+    <a href="/mentoria-implantacao-ia/" style="display:inline-block;background:#101828;color:#fff;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Conhecer a mentoria</a>
+  </div>
+</section>
+
+<section id="servicos" style="background:#F7F8FA;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <h2 style="font-size:34px;font-weight:700;color:#101828;margin-bottom:16px;max-width:700px;">Aplicações práticas de Inteligência Artificial</h2>
+    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:640px;margin-bottom:44px;">A tecnologia entra onde existe um problema claro, uma regra definida e um resultado que pode ser acompanhado.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;" class="g-3">
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
+          <h3 style="font-size:19px;font-weight:700;color:#101828;margin-bottom:12px;">Agentes de IA</h3>
+          <p style="font-size:14.5px;line-height:1.65;color:#667085;margin-bottom:22px;flex:1;">Agentes para atendimento, vendas, suporte, consulta de informações e processos internos.</p>
+          <a href="/agentes-de-ia/" style="color:#2E6CE6;font-weight:600;font-size:14.5px;">Ver agentes de IA →</a>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
+          <h3 style="font-size:19px;font-weight:700;color:#101828;margin-bottom:12px;">Automação empresarial</h3>
+          <p style="font-size:14.5px;line-height:1.65;color:#667085;margin-bottom:22px;flex:1;">Automação de tarefas, cadastros, propostas, relatórios, acompanhamentos e comunicação.</p>
+          <a href="/automacao-empresarial/" style="color:#2E6CE6;font-weight:600;font-size:14.5px;">Ver automações →</a>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
+          <h3 style="font-size:19px;font-weight:700;color:#101828;margin-bottom:12px;">Atendimento e WhatsApp</h3>
+          <p style="font-size:14.5px;line-height:1.65;color:#667085;margin-bottom:22px;flex:1;">Triagem, respostas iniciais, qualificação, agendamento e encaminhamento inteligente.</p>
+          <a href="/automacao-atendimento-whatsapp/" style="color:#2E6CE6;font-weight:600;font-size:14.5px;">Automatizar atendimento →</a>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
+          <h3 style="font-size:19px;font-weight:700;color:#101828;margin-bottom:12px;">Marketing e geração de leads</h3>
+          <p style="font-size:14.5px;line-height:1.65;color:#667085;margin-bottom:22px;flex:1;">Produção, segmentação, nutrição, acompanhamento e personalização de mensagens.</p>
+          <a href="/diagnostico-de-ia/" style="color:#2E6CE6;font-weight:600;font-size:14.5px;">Ver aplicações em marketing →</a>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
+          <h3 style="font-size:19px;font-weight:700;color:#101828;margin-bottom:12px;">Funis de vendas</h3>
+          <p style="font-size:14.5px;line-height:1.65;color:#667085;margin-bottom:22px;flex:1;">Organização do percurso comercial do primeiro contato ao fechamento.</p>
+          <a href="/diagnostico-de-ia/" style="color:#2E6CE6;font-weight:600;font-size:14.5px;">Estruturar meu processo comercial →</a>
+        </div>
+      
+        <div style="background:#fff;border:1px solid #E4E7EC;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
+          <h3 style="font-size:19px;font-weight:700;color:#101828;margin-bottom:12px;">Integração de sistemas</h3>
+          <p style="font-size:14.5px;line-height:1.65;color:#667085;margin-bottom:22px;flex:1;">Conexão entre IA, CRM, ERP, WhatsApp, planilhas, formulários e bancos de dados.</p>
+          <a href="/diagnostico-de-ia/" style="color:#2E6CE6;font-weight:600;font-size:14.5px;">Avaliar integrações →</a>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+<section id="agentes" style="background:#ffffff;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;" class="g-2">
+    <div>
+      <h2 style="font-size:32px;font-weight:700;color:#101828;margin-bottom:20px;">Um agente de IA não é apenas um chatbot</h2>
+      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:14px;">Um chatbot tradicional responde com base em caminhos predefinidos.</p>
+      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:28px;">Um agente de IA pode interpretar uma solicitação, consultar informações, seguir regras, executar tarefas dentro de limites definidos, atualizar sistemas e encaminhar situações para pessoas.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:32px;">
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Receber contatos
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Responder perguntas
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Qualificar leads
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Consultar documentos
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Organizar solicitações
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Agendar horários
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Atualizar sistemas
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Apoiar equipes
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Fazer acompanhamento
+          </div>
+        
+          <div style="display:flex;align-items:center;gap:8px;font-size:14.5px;color:#344054;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#12B76A;flex-shrink:0;"></span>Encaminhar exceções
+          </div>
+        
+      </div>
+      <div style="background:#F7F8FA;border-radius:12px;padding:24px;margin-bottom:28px;">
+        <p style="font-size:18px;font-weight:700;color:#101828;line-height:1.4;">Seu funcionário precisa responder à mesma pergunta cinquenta vezes por semana?</p>
+        <p style="font-size:18px;font-weight:700;color:#12B76A;line-height:1.4;margin-top:6px;">Talvez o problema não seja falta de equipe.</p>
+      </div>
+      <a href="#diagnostico" style="display:inline-block;background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Quero avaliar um agente de IA</a>
+    </div>
+    <div style="background:#101828;border-radius:16px;padding:32px;">
+      <p style="color:#667085;font-size:13px;font-weight:600;margin-bottom:20px;text-transform:uppercase;letter-spacing:0.04em;">Como um agente responde</p>
+      <div style="display:flex;flex-direction:column;gap:0;">
+        
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div style="width:28px;height:28px;border-radius:50%;background:#12B76A;color:#101828;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</div>
+              
+                <div style="width:2px;flex:1;background:#344054;min-height:24px;"></div>
+              
+            </div>
+            <p style="color:#E4E7EC;font-size:15px;padding-bottom:24px;">Cliente envia mensagem</p>
+          </div>
+        
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div style="width:28px;height:28px;border-radius:50%;background:#12B76A;color:#101828;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div>
+              
+                <div style="width:2px;flex:1;background:#344054;min-height:24px;"></div>
+              
+            </div>
+            <p style="color:#E4E7EC;font-size:15px;padding-bottom:24px;">Agente interpreta a solicitação</p>
+          </div>
+        
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div style="width:28px;height:28px;border-radius:50%;background:#12B76A;color:#101828;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div>
+              
+                <div style="width:2px;flex:1;background:#344054;min-height:24px;"></div>
+              
+            </div>
+            <p style="color:#E4E7EC;font-size:15px;padding-bottom:24px;">Consulta dados necessários</p>
+          </div>
+        
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div style="width:28px;height:28px;border-radius:50%;background:#12B76A;color:#101828;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div>
+              
+                <div style="width:2px;flex:1;background:#344054;min-height:24px;"></div>
+              
+            </div>
+            <p style="color:#E4E7EC;font-size:15px;padding-bottom:24px;">Responde e registra</p>
+          </div>
+        
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div style="width:28px;height:28px;border-radius:50%;background:#12B76A;color:#101828;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">5</div>
+              
+            </div>
+            <p style="color:#E4E7EC;font-size:15px;padding-bottom:24px;">Encaminha quando necessário</p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#0B3B2E;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="max-width:720px;margin-bottom:48px;">
+      <h2 style="font-size:34px;font-weight:700;color:#fff;margin-bottom:20px;">Seu primeiro atendimento pode acontecer em segundos</h2>
+      <p style="font-size:16.5px;line-height:1.7;color:#B7E4CD;margin-bottom:12px;">O atendimento humano ocorre de segunda a sexta-feira, das 9h às 18h. Os agentes de IA podem receber, orientar, qualificar e organizar contatos durante 24 horas por dia.</p>
+      <p style="font-size:16.5px;line-height:1.7;color:#B7E4CD;">A IA não substitui automaticamente o relacionamento humano. Ela evita que o cliente seja ignorado enquanto ninguém está disponível.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:40px;" class="two-col">
+      <div style="background:#0F2E24;border:1px solid #1E4636;border-radius:14px;padding:26px;">
+        <h3 style="color:#F97066;font-size:15px;font-weight:700;margin-bottom:16px;">Sem automação</h3>
+        
+          <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Cliente envia mensagem</p>
+        
+          <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Aguarda</p>
+        
+          <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Desiste</p>
+        
+          <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Procura concorrente</p>
+        
+      </div>
+      <div style="background:#0F2E24;border:1px solid #12B76A;border-radius:14px;padding:26px;">
+        <h3 style="color:#12B76A;font-size:15px;font-weight:700;margin-bottom:16px;">Com agente de IA</h3>
+        
+          <p style="color:#E4E7EC;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Cliente envia mensagem</p>
+        
+          <p style="color:#E4E7EC;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Recebe orientação inicial</p>
+        
+          <p style="color:#E4E7EC;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Informa sua necessidade</p>
+        
+          <p style="color:#E4E7EC;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">É qualificado</p>
+        
+          <p style="color:#E4E7EC;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Atendimento humano recebe o contexto organizado</p>
+        
+      </div>
+    </div>
+    <a href="#diagnostico" style="display:inline-block;background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Avaliar atendimento com IA</a>
+  </div>
+</section>
+
+<section style="background:#ffffff;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <h2 style="font-size:34px;font-weight:700;color:#101828;margin-bottom:12px;max-width:640px;">Tecnologia sem processo vira despesa</h2>
+    <p style="font-size:17px;color:#475467;margin-bottom:48px;max-width:640px;">O trabalho não começa instalando ferramentas. Começa entendendo o que precisa mudar.</p>
+    <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:44px;" class="g-7">
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">1</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Diagnosticar</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Identificar desperdícios, gargalos e oportunidades.</p>
+        </div>
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">2</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Priorizar</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Escolher maior impacto e menor risco.</p>
+        </div>
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">3</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Modelar</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Definir fluxos, regras e responsabilidades.</p>
+        </div>
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">4</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Implantar</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Configurar agentes, automações e integrações.</p>
+        </div>
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">5</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Treinar</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Preparar quem usa e supervisiona.</p>
+        </div>
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">6</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Medir</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Comparar antes e depois.</p>
+        </div>
+      
+        <div style="text-align:center;">
+          <div style="width:44px;height:44px;border-radius:50%;background:#F7F8FA;border:2px solid #12B76A;color:#101828;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">7</div>
+          <h3 style="font-size:15px;font-weight:700;color:#101828;margin-bottom:6px;">Melhorar</h3>
+          <p style="font-size:13px;line-height:1.5;color:#667085;">Corrigir falhas e ampliar o que funciona.</p>
+        </div>
+      
+    </div>
+    <p style="font-size:20px;font-weight:700;color:#101828;text-align:center;max-width:680px;margin:0 auto;">A ferramenta executa. O processo define se ela vai ajudar ou apenas acelerar a confusão.</p>
+  </div>
+</section>
+
+<section id="sobre" style="background:#F7F8FA;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:center;" class="g-sobre">
+    <div style="border-radius:16px;overflow:hidden;aspect-ratio:4/5;">
+      <img id="sobre-photo" src="/assets/mauricio-ruiz-sobre.webp" srcset="assets/mauricio-ruiz-sobre.webp 800w, assets/mauricio-ruiz-sobre@2x.webp 1024w" sizes="(max-width: 899px) 100vw, 40vw" alt="Mauricio Ruiz sentado à mesa em escritório moderno, com laptop, blazer preto sobre camiseta azul-marinho" width="1024" height="1280" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
+    </div>
+    <div>
+      <span style="display:inline-block;color:#12B76A;font-size:13px;font-weight:700;margin-bottom:16px;">Estratégia empresarial antes da ferramenta</span>
+      <h2 style="font-size:32px;font-weight:700;color:#101828;margin-bottom:20px;">Tecnologia muda processos. Pessoas determinam se a mudança funciona.</h2>
+      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:14px;">Mauricio Ruiz atua há mais de 20 anos com desenvolvimento humano, treinamento, comportamento, estratégia, negócios e tomada de decisão.</p>
+      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:14px;">Essa experiência é aplicada à implantação prática de Inteligência Artificial, automação e marketing. O trabalho considera três dimensões que não podem ser separadas: pessoas, processos e tecnologia.</p>
+      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:28px;">Uma empresa não muda apenas quando instala uma ferramenta. Ela muda quando as pessoas sabem como utilizá-la, os processos estão claros e a tecnologia executa aquilo que foi corretamente definido.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px;">
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Mais de 20 anos em desenvolvimento humano</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Experiência em treinamento e mentoria</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Modelagem de comportamento</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Estratégia empresarial</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Marketing</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Automação</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Inteligência Artificial aplicada</span>
+        
+          <span style="background:#fff;border:1px solid #E4E7EC;border-radius:100px;padding:8px 16px;font-size:13.5px;color:#344054;">Desenvolvimento de pessoas e equipes</span>
+        
+      </div>
+      <a href="/sobre/" style="display:inline-block;background:#101828;color:#fff;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Conhecer Mauricio Ruiz</a>
+    </div>
+  </div>
+</section>
+
+<section style="background:#ffffff;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr;gap:56px;" class="g-pq">
+    <div>
+      <h2 style="font-size:32px;font-weight:700;color:#101828;margin-bottom:28px;">Este trabalho faz sentido para empresas que:</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" class="g-pqi">
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Querem começar a usar IA com direção
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Já usam ferramentas, mas sem processo
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Precisam reduzir tarefas repetitivas
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Querem responder clientes com mais rapidez
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Perdem oportunidades comerciais
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Dependem excessivamente do proprietário
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Precisam organizar informações
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Querem integrar atendimento, marketing e vendas
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Precisam preparar a equipe
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#344054;line-height:1.5;">
+            <span style="color:#12B76A;flex-shrink:0;">✓</span>Querem transformar projetos isolados em um sistema
+          </div>
+        
+      </div>
+    </div>
+    <div style="background:#101828;border-radius:16px;padding:32px;">
+      <h3 style="color:#fff;font-size:19px;font-weight:700;margin-bottom:8px;">Talvez não seja para sua empresa</h3>
+      <p style="color:#98A2B3;font-size:14px;margin-bottom:20px;">Este trabalho não foi criado para quem:</p>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;">
+            <span style="color:#F97066;flex-shrink:0;">–</span>Busca apenas a ferramenta mais barata
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;">
+            <span style="color:#F97066;flex-shrink:0;">–</span>Quer automatizar tudo sem rever processos
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;">
+            <span style="color:#F97066;flex-shrink:0;">–</span>Procura uma fórmula pronta
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;">
+            <span style="color:#F97066;flex-shrink:0;">–</span>Considera IA um modismo passageiro
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;">
+            <span style="color:#F97066;flex-shrink:0;">–</span>Não pretende envolver a liderança
+          </div>
+        
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;">
+            <span style="color:#F97066;flex-shrink:0;">–</span>Espera resultado sem mudar a forma de trabalhar
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#F7F8FA;padding:88px 24px;">
+  <div style="max-width:1000px;margin:0 auto;text-align:center;">
+    <h2 style="font-size:32px;font-weight:700;color:#101828;margin-bottom:16px;">Resultados precisam ser medidos, não imaginados</h2>
+    <p style="font-size:16.5px;line-height:1.7;color:#475467;max-width:680px;margin:0 auto 40px;">Cada implantação deve partir de uma situação inicial e de critérios claros de comparação. Sem comparação entre antes e depois, qualquer promessa vira opinião.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #E4E7EC;border-radius:14px;overflow:hidden;background:#fff;text-align:left;">
+      <div style="padding:20px 26px;border-bottom:1px solid #E4E7EC;font-weight:700;color:#101828;">Antes</div>
+      <div style="padding:20px 26px;border-bottom:1px solid #E4E7EC;border-left:1px solid #E4E7EC;font-weight:700;color:#101828;">Depois</div>
+      
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;color:#667085;font-size:14.5px;">Processo manual</div>
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;border-left:1px solid #E4E7EC;color:#101828;font-size:14.5px;">Processo assistido</div>
+      
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;color:#667085;font-size:14.5px;">Informação espalhada</div>
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;border-left:1px solid #E4E7EC;color:#101828;font-size:14.5px;">Informação centralizada</div>
+      
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;color:#667085;font-size:14.5px;">Resposta dependente da equipe</div>
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;border-left:1px solid #E4E7EC;color:#101828;font-size:14.5px;">Resposta inicial automatizada</div>
+      
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;color:#667085;font-size:14.5px;">Lead sem acompanhamento</div>
+        <div style="padding:18px 26px;border-bottom:1px solid #E4E7EC;border-left:1px solid #E4E7EC;color:#101828;font-size:14.5px;">Lead registrado e encaminhado</div>
+      
+    </div>
+  </div>
+</section>
+
+<section id="conteudos" style="background:#ffffff;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <h2 style="font-size:34px;font-weight:700;color:#101828;margin-bottom:12px;max-width:640px;">Inteligência Artificial sem encantamento e sem exagero</h2>
+    <p style="font-size:17px;color:#475467;margin-bottom:44px;max-width:640px;">Conteúdos para empresários que querem entender onde a IA gera resultado e onde ela apenas cria distração.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:36px;" class="cards-3">
+      
+        <div style="border:1px solid #E4E7EC;border-radius:14px;padding:28px 24px;">
+          <span style="font-size:12.5px;font-weight:700;color:#12B76A;text-transform:uppercase;letter-spacing:0.03em;">Estratégia</span>
+          <h3 style="font-size:18px;font-weight:700;color:#101828;margin:10px 0;">Sua empresa precisa de IA ou de processos melhores?</h3>
+        </div>
+      
+        <div style="border:1px solid #E4E7EC;border-radius:14px;padding:28px 24px;">
+          <span style="font-size:12.5px;font-weight:700;color:#12B76A;text-transform:uppercase;letter-spacing:0.03em;">Agentes de IA</span>
+          <h3 style="font-size:18px;font-weight:700;color:#101828;margin:10px 0;">Qual a diferença entre chatbot e agente de IA?</h3>
+        </div>
+      
+        <div style="border:1px solid #E4E7EC;border-radius:14px;padding:28px 24px;">
+          <span style="font-size:12.5px;font-weight:700;color:#12B76A;text-transform:uppercase;letter-spacing:0.03em;">Automação</span>
+          <h3 style="font-size:18px;font-weight:700;color:#101828;margin:10px 0;">Dez tarefas repetitivas que sua empresa deveria revisar</h3>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+<section style="background:#F7F8FA;padding:88px 24px;">
+  <div style="max-width:840px;margin:0 auto;">
+    <h2 style="font-size:34px;font-weight:700;color:#101828;margin-bottom:36px;">Perguntas frequentes</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;">
+      <details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>A Inteligência Artificial serve para pequenas empresas?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Sim, desde que exista um problema claro e um processo que justifique a implantação. O tamanho da empresa importa menos do que a repetição das tarefas, o volume de informações e o impacto do problema.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Preciso trocar os sistemas que já utilizo?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Nem sempre. Em muitos projetos, a IA pode ser integrada às ferramentas já existentes. Essa possibilidade depende dos sistemas, das permissões e das integrações disponíveis.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Um agente de IA substitui funcionários?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">O objetivo inicial não deve ser simplesmente substituir pessoas. Na maioria dos casos, o agente reduz tarefas repetitivas, organiza informações e aumenta a capacidade da equipe. A redistribuição de funções depende de cada operação.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>É possível automatizar o atendimento pelo WhatsApp?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Sim. O agente pode receber contatos, identificar a necessidade do cliente, responder perguntas frequentes, coletar informações, qualificar oportunidades, realizar triagens, agendar horários e encaminhar o atendimento para a pessoa responsável. A automação não deve tentar esconder que existe uma Inteligência Artificial no atendimento.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>O atendimento funciona durante 24 horas?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Os agentes de IA podem receber e organizar contatos durante 24 horas por dia. O atendimento humano de Mauricio Ruiz ocorre de segunda a sexta-feira, das 9h às 18h. Fora desse horário, o agente pode responder dúvidas iniciais e deixar o atendimento preparado para continuidade humana.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Quanto custa implantar Inteligência Artificial?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">O investimento depende do problema, do processo, do volume de uso, das integrações, das ferramentas necessárias e do nível de personalização. Por isso, o preço não deve ser definido antes de compreender o que precisa ser implantado.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Como saber por onde começar?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">O primeiro passo é identificar onde a empresa perde mais tempo, repete tarefas, atrasa respostas ou deixa oportunidades sem acompanhamento. O diagnóstico inicial ajuda a separar o que deve ser automatizado, o que precisa ser reorganizado antes e o que ainda deve permanecer sob responsabilidade humana.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>A mentoria inclui implantação técnica?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">A mentoria inclui diagnóstico, planejamento, priorização, desenho dos processos e acompanhamento da implantação. A execução técnica pode fazer parte do projeto quando estiver prevista no escopo ou pode ser realizada por profissionais e fornecedores específicos, sob orientação estratégica.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Preciso entender de tecnologia para contratar?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Não. A função da mentoria é traduzir possibilidades técnicas em decisões empresariais compreensíveis. O empresário precisa conhecer o próprio negócio, os problemas da operação e os resultados que pretende alcançar.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>A Inteligência Artificial pode acessar informações da empresa?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Pode, desde que exista autorização, estrutura técnica adequada e regras claras de acesso. O agente deve consultar apenas as informações necessárias para executar sua função. Dados confidenciais não devem ser disponibilizados sem controle, critérios de segurança e definição de responsabilidades.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>É possível integrar a IA aos sistemas que a empresa já utiliza?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Em muitos casos, sim. A viabilidade depende de o sistema oferecer integração por API, conectores, automações ou outros meios seguros de troca de informações, como CRM, ERP, WhatsApp, planilhas, formulários e e-mail.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Quanto tempo leva uma implantação?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">O prazo depende da complexidade do processo. Projetos simples podem envolver poucos fluxos e integrações. Projetos mais avançados exigem mapeamento, organização das informações, testes, treinamento da equipe e ajustes. O prazo deve ser definido depois do diagnóstico.</p>
+</details>
+<details style="background:#fff;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#101828;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Como os resultados são medidos?</span><span class="faq-icon" style="color:#12B76A;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Os indicadores devem ser definidos antes da implantação: tempo de resposta, tarefas manuais reduzidas, leads qualificados, contatos acompanhados, erros operacionais, tempo economizado pela equipe, taxa de encaminhamento e conversão. Sem uma situação inicial registrada, não existe comparação confiável entre antes e depois.</p>
+</details>
+    </div>
+  </div>
+</section>
+
+<section id="diagnostico" style="background:#101828;padding:88px 24px;">
+  <div style="max-width:900px;margin:0 auto;text-align:center;">
+    <h2 style="font-size:36px;font-weight:700;color:#fff;margin-bottom:20px;">Antes de contratar outra ferramenta, descubra onde a IA realmente pode gerar resultado</h2>
+    <p style="font-size:17px;line-height:1.7;color:#98A2B3;max-width:640px;margin:0 auto 44px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
+
+    <div style="background:#1D2939;border-radius:16px;padding:36px;text-align:left;max-width:640px;margin:0 auto;">
+      
+      
+        <form id="diagForm" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <input type="hidden" name="_subject" value="Diagnóstico de IA — mauricioruiz.com.br">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">Nome
+            <input type="text" name="nome" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">Empresa
+            <input type="text" name="empresa" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">Telefone
+            <input type="tel" name="telefone" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">E-mail
+            <input type="email" name="email" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;grid-column:1 / -1;">Qual tarefa sua empresa ainda faz manualmente apenas porque ninguém parou para redesenhar o processo?
+            <textarea rows="3" name="tarefa" style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;resize:vertical;"></textarea>
+          </label>
+          <button type="submit" style="grid-column:1 / -1;background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px;border-radius:8px;border:none;cursor:pointer;font-family:'Inter',sans-serif;">Solicitar diagnóstico de IA</button>
+          <p style="grid-column:1 / -1;color:#667085;font-size:12.5px;text-align:center;">Seus dados são usados apenas para retorno deste contato.</p>
+        </form>
+      
+    </div>
+
+    <div style="margin-top:28px;">
+      <a href="https://wa.me/5527920000167" target="_blank" style="color:#12B76A;font-weight:600;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer id="contato" style="background:#0B1220;padding:48px 24px 28px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:32px;margin-bottom:32px;" class="g-footer">
+      <div>
+        <p style="color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;margin-bottom:4px;">Mauricio Ruiz</p>
+        <p style="color:#667085;font-size:13.5px;margin-bottom:14px;">Mentor de Inteligência Artificial</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Rua Marajó, 77, Unidade 402</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Praia da Costa, Vila Velha – ES</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">CEP 29101-250, Brasil</p>
+      </div>
+      <div>
+        <p style="color:#fff;font-size:14px;font-weight:700;margin-bottom:12px;">Contato</p>
+        <p style="color:#98A2B3;font-size:14px;margin:0 0 6px;">(27) 92000-0167</p>
+        <p style="color:#98A2B3;font-size:14px;margin:0 0 10px;">Segunda a sexta, 9h às 18h</p>
+        <a href="https://wa.me/5527920000167" target="_blank" style="color:#12B76A;font-size:14px;font-weight:600;">Falar pelo WhatsApp</a>
+      </div>
+      <div>
+        <p style="color:#fff;font-size:14px;font-weight:700;margin-bottom:12px;">Área de atendimento</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Vila Velha, Vitória e Grande Vitória — Espírito Santo. Empresas de todo o Brasil por atendimento remoto.</p>
+      </div>
+    </div>
+    <div style="border-top:1px solid #1D2939;padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="color:#667085;font-size:13px;">© 2026 Mauricio Ruiz | Mentor de Inteligência Artificial</p>
+      <div style="display:flex;gap:20px;flex-wrap:wrap;">
+        <a href="/politica-de-privacidade/" style="color:#667085;font-size:13px;">Política de Privacidade</a>
+        <a href="/politica-de-cookies/" style="color:#667085;font-size:13px;">Política de Cookies</a>
+        <a href="/termos-de-uso/" style="color:#667085;font-size:13px;">Termos de Uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+(function(){
+  var burger=document.getElementById('burgerBtn');
+  var menu=document.getElementById('mobileMenu');
+  burger.addEventListener('click',function(){
+    var open=menu.style.display==='flex';
+    menu.style.display=open?'none':'flex';
+    burger.setAttribute('aria-expanded',String(!open));
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){
+      menu.style.display='none';
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+  document.getElementById('diagForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=e.target;
+    if(f.querySelector('[name=_honey]').value){return;} // honeypot anti-bot
+    var btn=f.querySelector('button[type=submit]');
+    btn.disabled=true;btn.textContent='Enviando...';
+    var fd=new FormData(f);
+    fd.delete('_honey');
+    fetch('https://formsubmit.co/ajax/mauricio@sucesso.com.br',{
+      method:'POST',
+      headers:{'Accept':'application/json'},
+      body:fd
+    }).then(function(r){
+      if(!r.ok){throw new Error('HTTP '+r.status);}
+      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#12B76A;font-size:20px;font-weight:700;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#D2D9DE;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
+    }).catch(function(){
+      btn.disabled=false;btn.textContent='Solicitar diagnóstico de IA';
+      alert('Não foi possível enviar agora. Tente novamente ou fale direto pelo WhatsApp (27) 92000-0167.');
+    });
+  });
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnóstico de IA para Empresas | Mauricio Ruiz</title>
+<meta name="description" content="Identifique onde a Inteligência Artificial pode gerar resultado na sua empresa: processos promissores, riscos, prioridades e primeiros projetos.">
+<link rel="canonical" href="https://mauricioruiz.com.br/diagnostico-de-ia/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Diagnóstico de IA para Empresas | Mauricio Ruiz">
+<meta property="og:description" content="Identifique onde a Inteligência Artificial pode gerar resultado na sua empresa: processos promissores, riscos, prioridades e primeiros projetos.">
+<meta property="og:url" content="https://mauricioruiz.com.br/diagnostico-de-ia/">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#101828">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--grafite:#101828;--verde:#12B76A;}
+html{scroll-behavior:smooth;}
+section[id],footer[id]{scroll-margin-top:88px;}
+body{margin:0;background:#ffffff;color:#1D2939;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+*{box-sizing:border-box;}
+a{color:#2E6CE6;text-decoration:none;}
+a:hover{color:#087A48;}
+h1,h2,h3{font-family:'Manrope',sans-serif;margin:0;letter-spacing:-0.02em;}
+summary::-webkit-details-marker{display:none;}
+summary:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #12B76A;outline-offset:2px;}
+details[open] .faq-icon{transform:rotate(45deg);}
+.faq-icon{transition:transform .2s;display:inline-block;}
+.skip-link{position:absolute;left:-9999px;top:0;background:#12B76A;color:#101828;padding:12px 20px;font-weight:600;z-index:999;}
+.skip-link:focus{left:16px;top:16px;}
+@media (max-width:1023px){
+  .desktop-nav{display:none !important;}
+  #burgerBtn{display:flex !important;align-items:center;justify-content:center;}
+}
+@media (min-width:1024px){#mobileMenu{display:none !important;}}
+@media (max-width:899px){
+  .g-hero,.g-sobre,.g-pq,.g-2,.g-footer{grid-template-columns:1fr !important;}
+  .g-4,.g-5,.g-3,.g-7{grid-template-columns:1fr 1fr !important;}
+  h1{font-size:34px !important;}
+  .two-col,.cards-3{grid-template-columns:1fr !important;}
+}
+@media (max-width:559px){
+  .g-4,.g-5,.g-3,.g-7,.g-pqi{grid-template-columns:1fr !important;}
+  form#diagForm{grid-template-columns:1fr !important;}
+  h1{font-size:28px !important;}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important;}html{scroll-behavior:auto !important;}}
+
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Início",
+   "item": "https://mauricioruiz.com.br/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Diagnóstico de IA"
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+<header style="position:sticky;top:0;z-index:50;background:#ffffff;border-bottom:1px solid #E4E7EC;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;">
+    <a href="/" style="display:flex;flex-direction:column;color:#101828;line-height:1.1;">
+      <span style="font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;">Mauricio Ruiz</span>
+      <span style="font-size:12px;color:#667085;font-weight:500;">Mentor de Inteligência Artificial</span>
+    </a>
+    <nav style="display:flex;align-items:center;gap:28px;" class="desktop-nav" id="mainNav">
+      <a href="/#confronto" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Início</a>
+      <a href="/mentoria-implantacao-ia/" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Mentoria</a>
+      <a href="/agentes-de-ia/" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Agentes de IA</a>
+      <a href="/#servicos" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Automação</a>
+      <a href="/sobre/" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Sobre</a>
+      <a href="/#conteudos" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Conteúdos</a>
+      <a href="/contato/" style="display:inline-block;color:#1D2939;font-size:15px;font-weight:500;">Contato</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <a href="/diagnostico-de-ia/" style="background:#12B76A;color:#101828;font-weight:700;font-size:14px;padding:12px 20px;border-radius:8px;white-space:nowrap;">Solicitar diagnóstico</a>
+      <button id="burgerBtn" onclick="void(0)" aria-label="Abrir menu" aria-expanded="false" style="display:none;background:none;border:1px solid #E4E7EC;border-radius:8px;width:44px;height:44px;font-size:20px;cursor:pointer;">☰</button>
+    </div>
+  </div>
+  
+    <nav id="mobileMenu" style="display:none;flex-direction:column;padding:8px 24px 20px;gap:4px;border-top:1px solid #E4E7EC;background:#fff;">
+      <a href="/#confronto" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Início</a>
+      <a href="/mentoria-implantacao-ia/" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Mentoria</a>
+      <a href="/agentes-de-ia/" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Agentes de IA</a>
+      <a href="/#servicos" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Automação</a>
+      <a href="/sobre/" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Sobre</a>
+      <a href="/#conteudos" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;border-bottom:1px solid #F7F8FA;">Conteúdos</a>
+      <a href="/contato/" style="padding:12px 0;color:#1D2939;font-size:16px;font-weight:500;">Contato</a>
+    </nav>
+  
+</header><main id="conteudo">
+
+<nav aria-label="Breadcrumb" style="background:#F7F8FA;border-bottom:1px solid #E4E7EC;padding:12px 24px;font-size:13.5px;">
+  <div style="max-width:1200px;margin:0 auto;"><a href="/" style="color:#667085;">Início</a><span style="color:#D0D5DD;margin:0 8px;">/</span><span style="color:#101828;font-weight:600;">Diagnóstico de IA</span></div>
+</nav>
+
+<section style="background:#101828;padding:88px 24px;">
+  <div style="max-width:900px;margin:0 auto;text-align:center;">
+    <h1 style="font-size:40px;line-height:1.15;font-weight:800;color:#fff;margin-bottom:20px;">Descubra onde a IA realmente pode gerar resultado na sua empresa</h1>
+    <p style="font-size:17px;line-height:1.7;color:#98A2B3;max-width:640px;margin:0 auto 44px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
+
+    <div style="background:#1D2939;border-radius:16px;padding:36px;text-align:left;max-width:640px;margin:0 auto;">
+      <form id="diagForm" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <input type="hidden" name="_subject" value="Diagnóstico de IA — mauricioruiz.com.br">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">Nome
+          <input type="text" name="nome" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">Empresa
+          <input type="text" name="empresa" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">Telefone / WhatsApp
+          <input type="tel" name="telefone" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;">E-mail
+          <input type="email" name="email" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;grid-column:1 / -1;">Segmento da empresa
+          <input type="text" name="segmento" required style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#D2D9DE;grid-column:1 / -1;">Qual tarefa sua empresa ainda faz manualmente apenas porque ninguém parou para redesenhar o processo?
+          <textarea name="tarefa" rows="3" style="background:#101828;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;resize:vertical;"></textarea>
+        </label>
+        <button type="submit" data-label="Solicitar diagnóstico de IA" style="grid-column:1 / -1;background:#12B76A;color:#101828;font-weight:700;font-size:16px;padding:16px;border-radius:8px;border:none;cursor:pointer;font-family:'Inter',sans-serif;">Solicitar diagnóstico de IA</button>
+        <p style="grid-column:1 / -1;color:#667085;font-size:12.5px;text-align:center;">Seus dados são usados apenas para retorno deste contato. <a href="/politica-de-privacidade/" style="color:#667085;text-decoration:underline;">Política de Privacidade</a></p>
+      </form>
+    </div>
+
+    <div style="margin-top:28px;">
+      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#12B76A;font-weight:600;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<section style="background:#ffffff;padding:88px 24px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <h2 style="font-size:32px;font-weight:700;color:#101828;margin-bottom:36px;max-width:680px;">O que acontece depois do envio</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;" class="g-3">
+      <div style="border-top:3px solid #12B76A;padding-top:16px;">
+        <span style="font-size:13px;font-weight:700;color:#12B76A;">01</span>
+        <h3 style="font-size:17px;font-weight:700;color:#101828;margin:6px 0 8px;">Análise inicial</h3>
+        <p style="font-size:14.5px;line-height:1.6;color:#667085;">Suas respostas são analisadas no contexto do seu segmento e da sua operação.</p>
+      </div>
+      <div style="border-top:3px solid #12B76A;padding-top:16px;">
+        <span style="font-size:13px;font-weight:700;color:#12B76A;">02</span>
+        <h3 style="font-size:17px;font-weight:700;color:#101828;margin:6px 0 8px;">Conversa estratégica</h3>
+        <p style="font-size:14.5px;line-height:1.6;color:#667085;">Contato dentro do horário comercial para entender o cenário e as prioridades.</p>
+      </div>
+      <div style="border-top:3px solid #12B76A;padding-top:16px;">
+        <span style="font-size:13px;font-weight:700;color:#12B76A;">03</span>
+        <h3 style="font-size:17px;font-weight:700;color:#101828;margin:6px 0 8px;">Direção clara</h3>
+        <p style="font-size:14.5px;line-height:1.6;color:#667085;">Você sai sabendo o que automatizar, o que reorganizar antes e o que deixar humano.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer id="contato" style="background:#0B1220;padding:48px 24px 28px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:32px;margin-bottom:32px;" class="g-footer">
+      <div>
+        <p style="color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;margin-bottom:4px;">Mauricio Ruiz</p>
+        <p style="color:#667085;font-size:13.5px;margin-bottom:14px;">Mentor de Inteligência Artificial</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Rua Marajó, 77, Unidade 402</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Praia da Costa, Vila Velha – ES</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">CEP 29101-250, Brasil</p>
+      </div>
+      <div>
+        <p style="color:#fff;font-size:14px;font-weight:700;margin-bottom:12px;">Contato</p>
+        <p style="color:#98A2B3;font-size:14px;margin:0 0 6px;">(27) 92000-0167</p>
+        <p style="color:#98A2B3;font-size:14px;margin:0 0 10px;">Segunda a sexta, 9h às 18h</p>
+        <a href="https://wa.me/5527920000167" target="_blank" style="color:#12B76A;font-size:14px;font-weight:600;">Falar pelo WhatsApp</a>
+      </div>
+      <div>
+        <p style="color:#fff;font-size:14px;font-weight:700;margin-bottom:12px;">Área de atendimento</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Vila Velha, Vitória e Grande Vitória — Espírito Santo. Empresas de todo o Brasil por atendimento remoto.</p>
+      </div>
+    </div>
+    <div style="border-top:1px solid #1D2939;padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="color:#667085;font-size:13px;">© 2026 Mauricio Ruiz | Mentor de Inteligência Artificial</p>
+      <div style="display:flex;gap:20px;flex-wrap:wrap;">
+        <a href="/politica-de-privacidade/" style="color:#667085;font-size:13px;">Política de Privacidade</a>
+        <a href="/politica-de-cookies/" style="color:#667085;font-size:13px;">Política de Cookies</a>
+        <a href="/termos-de-uso/" style="color:#667085;font-size:13px;">Termos de Uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var burger=document.getElementById('burgerBtn');
+  var menu=document.getElementById('mobileMenu');
+  burger.addEventListener('click',function(){
+    var open=menu.style.display==='flex';
+    menu.style.display=open?'none':'flex';
+    burger.setAttribute('aria-expanded',String(!open));
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){
+      menu.style.display='none';
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var form=document.getElementById('diagForm');
+  if(!form){return;}
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=e.target;
+    if(f.querySelector('[name=_honey]').value){return;}
+    var btn=f.querySelector('button[type=submit]');
+    btn.disabled=true;btn.textContent='Enviando...';
+    var fd=new FormData(f);
+    fd.delete('_honey');
+    fetch('https://formsubmit.co/ajax/mauricio@sucesso.com.br',{
+      method:'POST',headers:{'Accept':'application/json'},body:fd
+    }).then(function(r){
+      if(!r.ok){throw new Error('HTTP '+r.status);}
+      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#12B76A;font-size:20px;font-weight:700;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#D2D9DE;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
+    }).catch(function(){
+      btn.disabled=false;btn.textContent=btn.dataset.label||'Solicitar diagnóstico de IA';
+      alert('Não foi possível enviar agora. Tente novamente ou fale direto pelo WhatsApp (27) 92000-0167.');
+    });
+  });
+})();
+</script>
+</body>
+</html>
