@@ -86,8 +86,8 @@ def head(title, desc, canonical, extra_css="", schemas=None):
 <meta property="og:url" content="https://mauricioruiz.com.br{canonical}">
 <meta property="og:locale" content="pt_BR">
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png">
-<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-logo-c-192.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon-logo-c.png">
 <meta property="og:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og.jpg">
 <meta property="og:image:secure_url" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og.jpg">
 <meta property="og:image:type" content="image/jpeg">
