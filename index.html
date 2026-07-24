@@ -72,6 +72,10 @@ details[open] .faq-icon{transform:rotate(45deg);}
   .waste-grid{grid-template-columns:1fr !important;}
   .waste-card{display:flex !important;align-items:center !important;text-align:left !important;padding:18px 18px !important;gap:14px !important;}
   .waste-card p{margin:0 !important;}
+  .step-card,.process-step{display:grid !important;grid-template-columns:48px 1fr !important;column-gap:14px !important;align-items:start !important;text-align:left !important;padding:18px !important;border:1px solid #D7DEE8 !important;border-radius:14px !important;background:#fff !important;}
+  .step-card .step-icon,.process-step .process-number{grid-row:1 / span 2 !important;margin:0 !important;}
+  .step-card h3,.process-step h3{margin:0 0 6px !important;align-self:end !important;}
+  .step-card p,.process-step p{margin:0 !important;}
   .mobile-justify{text-align:justify !important;hyphens:auto;-webkit-hyphens:auto;text-wrap:pretty;}
   form#diagForm{grid-template-columns:1fr !important;}
   h1{font-size:28px !important;}
@@ -262,46 +266,53 @@ details[open] .faq-icon{transform:rotate(45deg);}
     <p style="font-size:17px;line-height:1.7;color:#475467;max-width:680px;margin-bottom:52px;" class="mobile-justify">O trabalho começa pelo negócio, pelos processos e pelos resultados esperados. Só depois são escolhidas as ferramentas.</p>
     <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:40px;" class="g-7">
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">01</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><path d="M4 11a8 8 0 0 1 14.5-4.7"/><path d="M20 4v5h-5"/><path d="M20 13a8 8 0 0 1-14.5 4.7"/><path d="M4 20v-5h5"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">01</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Diagnóstico</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Identificamos gargalos, desperdícios, riscos e oportunidades.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Identificamos gargalos, desperdícios, riscos e oportunidades.</p>
         </div>
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">02</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><path d="M4 6h5l2 3h9v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M8 13h8M8 16h5"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">02</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Mapeamento</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Entendemos como as tarefas realmente acontecem dentro da empresa.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Entendemos como as tarefas realmente acontecem dentro da empresa.</p>
         </div>
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">03</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><path d="M12 3l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8z"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">03</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Priorização</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Separamos o que parece moderno do que realmente pode gerar resultado.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Separamos o que parece moderno do que realmente pode gerar resultado.</p>
         </div>
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">04</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16M8 14h4M8 17h7"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">04</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Planejamento</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Definimos objetivos, responsabilidades, ferramentas e critérios.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Definimos objetivos, responsabilidades, ferramentas e critérios.</p>
         </div>
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">05</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><path d="M12 3v6l5 3-5 3v6"/><path d="M7 6l5 3M17 6l-5 3M7 18l5-3M17 18l-5-3"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">05</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Implantação</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Construímos agentes, automações, integrações e processos.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Construímos agentes, automações, integrações e processos.</p>
         </div>
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">06</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><path d="M4 19V6a2 2 0 0 1 2-2h12v15H6a2 2 0 0 0-2 2"/><path d="M8 8h7M8 12h5"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">06</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Treinamento</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Preparamos empresários e equipes para utilizar a nova estrutura.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Preparamos empresários e equipes para utilizar a nova estrutura.</p>
         </div>
       
-        <div style="border-top:3px solid #3A606F;padding-top:16px;">
-          <span style="font-size:13px;font-weight:700;color:#3A606F;">07</span>
+        <div class="step-card" style="border-top:3px solid #3A606F;padding:18px 14px 0;">
+          <span aria-hidden="true" class="step-icon" style="width:44px;height:44px;border:1px solid #B0BDCA;border-radius:13px;background:#EEF4F7;color:#133A58;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:23px;height:23px;display:block;"><path d="M4 19h16"/><path d="M7 16v-5M12 16V7M17 16v-8"/><path d="M5 5l3 3 4-4 7 7"/></svg></span>
+          <span style="font-size:13px;font-weight:800;color:#3A606F;letter-spacing:.04em;">07</span>
           <h3 style="font-size:15.5px;font-weight:700;color:#133A58;margin:6px 0 8px;">Medição</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#667085;">Comparamos tempo, eficiência, resposta, custo e qualidade.</p>
+          <p style="font-size:13.5px;line-height:1.55;color:#667085;margin:0;">Comparamos tempo, eficiência, resposta, custo e qualidade.</p>
         </div>
       
     </div>
@@ -519,44 +530,44 @@ details[open] .faq-icon{transform:rotate(45deg);}
     <p style="font-size:17px;color:#475467;margin-bottom:48px;max-width:640px;" class="mobile-justify">O trabalho não começa instalando ferramentas. Começa entendendo o que precisa mudar.</p>
     <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:44px;" class="g-7">
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">1</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">1</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Diagnosticar</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Identificar desperdícios, gargalos e oportunidades.</p>
         </div>
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">2</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">2</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Priorizar</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Escolher maior impacto e menor risco.</p>
         </div>
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">3</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">3</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Modelar</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Definir fluxos, regras e responsabilidades.</p>
         </div>
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">4</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">4</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Implantar</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Configurar agentes, automações e integrações.</p>
         </div>
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">5</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">5</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Treinar</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Preparar quem usa e supervisiona.</p>
         </div>
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">6</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">6</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Medir</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Comparar antes e depois.</p>
         </div>
       
-        <div style="text-align:center;">
-          <div style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">7</div>
+        <div class="process-step" style="text-align:center;">
+          <div class="process-number" style="width:44px;height:44px;border-radius:50%;background:#F6F8FA;border:2px solid #3A606F;color:#133A58;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">7</div>
           <h3 style="font-size:15px;font-weight:700;color:#133A58;margin-bottom:6px;">Melhorar</h3>
           <p style="font-size:13px;line-height:1.5;color:#667085;">Corrigir falhas e ampliar o que funciona.</p>
         </div>
