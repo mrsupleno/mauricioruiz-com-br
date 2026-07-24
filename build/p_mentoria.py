@@ -28,7 +28,7 @@ MAIN = f"""
     <h1 style="font-size:44px;line-height:1.15;font-weight:800;color:#133A58;margin-bottom:24px;max-width:820px;">Implantar Inteligência Artificial não começa escolhendo uma ferramenta</h1>
     <p style="font-size:19px;line-height:1.6;color:#475467;max-width:680px;margin-bottom:32px;">Começa identificando onde sua empresa perde tempo, dinheiro, informação e oportunidades. A mentoria transforma a intenção de usar IA em um plano de implantação.</p>
     <div style="display:flex;flex-wrap:wrap;gap:14px;">
-      <a href="/diagnostico-de-ia/" style="background:#3A606F;color:#133A58;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">Quero avaliar minha empresa</a>
+      <a href="/diagnostico-de-ia/" style="background:#133A58;color:#fff;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">Quero avaliar minha empresa</a>
       <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="background:#fff;border:1px solid #B0BDCA;color:#133A58;font-weight:600;font-size:16px;padding:16px 26px;border-radius:8px;">Falar pelo WhatsApp</a>
     </div>
   </div>
@@ -97,11 +97,11 @@ MAIN = f"""
       <h3 style="color:#fff;font-size:19px;font-weight:700;margin-bottom:8px;">Limites claros</h3>
       <p style="color:#98A2B3;font-size:14px;margin-bottom:20px;">A mentoria não promete:</p>
       <div style="display:flex;flex-direction:column;gap:10px;">
-        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;"><span style="color:#F97066;flex-shrink:0;">–</span>Resultado garantido sem diagnóstico</div>
-        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;"><span style="color:#F97066;flex-shrink:0;">–</span>Automação total da operação</div>
-        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;"><span style="color:#F97066;flex-shrink:0;">–</span>Implantação instantânea</div>
-        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;"><span style="color:#F97066;flex-shrink:0;">–</span>Substituição indiscriminada de pessoas</div>
-        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#D2D9DE;line-height:1.5;"><span style="color:#F97066;flex-shrink:0;">–</span>Solução pronta copiada de outra empresa</div>
+        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#B0BDCA;line-height:1.5;"><span style="color:#B0BDCA;flex-shrink:0;">–</span>Resultado garantido sem diagnóstico</div>
+        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#B0BDCA;line-height:1.5;"><span style="color:#B0BDCA;flex-shrink:0;">–</span>Automação total da operação</div>
+        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#B0BDCA;line-height:1.5;"><span style="color:#B0BDCA;flex-shrink:0;">–</span>Implantação instantânea</div>
+        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#B0BDCA;line-height:1.5;"><span style="color:#B0BDCA;flex-shrink:0;">–</span>Substituição indiscriminada de pessoas</div>
+        <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#B0BDCA;line-height:1.5;"><span style="color:#B0BDCA;flex-shrink:0;">–</span>Solução pronta copiada de outra empresa</div>
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@ MAIN = f"""
     <p style="font-size:17px;color:#475467;margin-bottom:36px;max-width:640px;">Empresas que querem começar a usar IA com direção — ou que já usam ferramentas, mas sem processo, sem integração e sem critério.</p>
     <h2 style="font-size:32px;font-weight:700;color:#133A58;margin-bottom:12px;max-width:680px;">O que será analisado</h2>
     <p style="font-size:17px;color:#475467;margin-bottom:36px;max-width:680px;">Atendimento, vendas, marketing, operações, informações internas e tomada de decisão. Onde existe repetição, espera, retrabalho ou dependência de memória, existe candidato a melhoria.</p>
-    <div style="background:#0B3B2E;border-radius:16px;padding:36px;text-align:center;">
+    <div style="background:#133A58;border-radius:16px;padding:36px;text-align:center;">
       <p style="font-size:22px;font-weight:700;color:#3A606F;line-height:1.4;max-width:760px;margin:0 auto;">Nem todo processo precisa de Inteligência Artificial. Alguns precisam apenas de clareza e disciplina operacional.</p>
     </div>
   </div>

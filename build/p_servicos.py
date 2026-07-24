@@ -18,7 +18,7 @@ def hero(selobg, selo, h1, sub, cta_label, cta_href="/diagnostico-de-ia/"):
     <h1 style="font-size:44px;line-height:1.15;font-weight:800;color:#133A58;margin-bottom:24px;max-width:820px;">{h1}</h1>
     <p style="font-size:19px;line-height:1.6;color:#475467;max-width:680px;margin-bottom:32px;">{sub}</p>
     <div style="display:flex;flex-wrap:wrap;gap:14px;">
-      <a href="{cta_href}" style="background:#3A606F;color:#133A58;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">{cta_label}</a>
+      <a href="{cta_href}" style="background:#133A58;color:#fff;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">{cta_label}</a>
       <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="background:#fff;border:1px solid #B0BDCA;color:#133A58;font-weight:600;font-size:16px;padding:16px 26px;border-radius:8px;">Falar pelo WhatsApp</a>
     </div>
   </div>
@@ -76,11 +76,11 @@ MAIN = f"""
     </div>
     <div style="background:#383D44;border-radius:16px;padding:32px;">
       <div style="display:flex;flex-direction:column;gap:0;">
-        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#3A606F;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Cliente envia mensagem</p></div>
-        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#3A606F;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Agente interpreta a solicitação</p></div>
-        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#3A606F;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Consulta os dados necessários</p></div>
-        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#3A606F;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Responde e registra</p></div>
-        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#3A606F;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">5</div></div><p style="color:#B0BDCA;font-size:15px;">Encaminha para uma pessoa quando necessário</p></div>
+        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#B0BDCA;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Cliente envia mensagem</p></div>
+        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#B0BDCA;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Agente interpreta a solicitação</p></div>
+        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#B0BDCA;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Consulta os dados necessários</p></div>
+        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#B0BDCA;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div><div style="width:2px;flex:1;background:#344054;min-height:24px;"></div></div><p style="color:#B0BDCA;font-size:15px;padding-bottom:24px;">Responde e registra</p></div>
+        <div style="display:flex;gap:16px;align-items:flex-start;"><div style="display:flex;flex-direction:column;align-items:center;"><div style="width:28px;height:28px;border-radius:50%;background:#B0BDCA;color:#133A58;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">5</div></div><p style="color:#B0BDCA;font-size:15px;">Encaminha para uma pessoa quando necessário</p></div>
       </div>
     </div>
   </div>
@@ -141,20 +141,20 @@ MAIN = f"""
   </div>
 </section>
 
-<section style="background:#0B3B2E;padding:88px 24px;">
+<section style="background:#133A58;padding:88px 24px;">
   <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;" class="g-2">
-    <div style="background:#101B3D;border:1px solid #1E4636;border-radius:14px;padding:26px;">
-      <h3 style="color:#F97066;font-size:15px;font-weight:700;margin-bottom:16px;">Sem processo</h3>
-      <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Informação espalhada em planilhas e mensagens</p>
-      <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Tarefas copiadas entre sistemas</p>
-      <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Acompanhamento dependente de memória</p>
-      <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;">Operação travada em poucas pessoas</p>
+    <div style="background:#133A58;border:1px solid #2C4964;border-radius:14px;padding:26px;">
+      <h3 style="color:#B0BDCA;font-size:15px;font-weight:700;margin-bottom:16px;">Sem processo</h3>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Informação espalhada em planilhas e mensagens</p>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Tarefas copiadas entre sistemas</p>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Acompanhamento dependente de memória</p>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;">Operação travada em poucas pessoas</p>
     </div>
-    <div style="background:#101B3D;border:1px solid #3A606F;border-radius:14px;padding:26px;">
+    <div style="background:#133A58;border:1px solid #3A606F;border-radius:14px;padding:26px;">
       <h3 style="color:#3A606F;font-size:15px;font-weight:700;margin-bottom:16px;">Com automação bem implantada</h3>
-      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Informação centralizada e consultável</p>
-      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Dados fluindo entre sistemas</p>
-      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Acompanhamento sistemático e registrado</p>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Informação centralizada e consultável</p>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Dados fluindo entre sistemas</p>
+      <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Acompanhamento sistemático e registrado</p>
       <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;">Processo funcionando independente de quem está presente</p>
     </div>
   </div>
@@ -209,26 +209,26 @@ MAIN = f"""
   </div>
 </section>
 
-<section style="background:#0B3B2E;padding:88px 24px;">
+<section style="background:#133A58;padding:88px 24px;">
   <div style="max-width:1200px;margin:0 auto;">
     <h2 style="font-size:34px;font-weight:700;color:#fff;margin-bottom:40px;max-width:700px;">A diferença entre ser ignorado e ser atendido</h2>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;" class="g-2">
-      <div style="background:#101B3D;border:1px solid #1E4636;border-radius:14px;padding:26px;">
-        <h3 style="color:#F97066;font-size:15px;font-weight:700;margin-bottom:16px;">Sem automação</h3>
-        <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Cliente envia mensagem</p>
-        <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Aguarda</p>
-        <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Desiste</p>
-        <p style="color:#D2D9DE;font-size:14.5px;padding:8px 0;">Procura concorrente</p>
+      <div style="background:#133A58;border:1px solid #2C4964;border-radius:14px;padding:26px;">
+        <h3 style="color:#B0BDCA;font-size:15px;font-weight:700;margin-bottom:16px;">Sem automação</h3>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Cliente envia mensagem</p>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Aguarda</p>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Desiste</p>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;">Procura concorrente</p>
       </div>
-      <div style="background:#101B3D;border:1px solid #3A606F;border-radius:14px;padding:26px;">
-        <h3 style="color:#3A606F;font-size:15px;font-weight:700;margin-bottom:16px;">Com agente de IA</h3>
-        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Cliente envia mensagem</p>
-        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Recebe orientação inicial</p>
-        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #1E4636;">Informa sua necessidade e é qualificado</p>
+      <div style="background:#133A58;border:1px solid #3A606F;border-radius:14px;padding:26px;">
+        <h3 style="color:#fff;font-size:15px;font-weight:700;margin-bottom:16px;">Com agente de IA</h3>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Cliente envia mensagem</p>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Recebe orientação inicial</p>
+        <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;border-bottom:1px solid #2C4964;">Informa sua necessidade e é qualificado</p>
         <p style="color:#B0BDCA;font-size:14.5px;padding:8px 0;">Atendimento humano recebe o contexto organizado</p>
       </div>
     </div>
-    <p style="font-size:17px;line-height:1.7;color:#B7E4CD;max-width:720px;margin-top:36px;">A IA não substitui automaticamente o relacionamento humano. Ela evita que o cliente seja ignorado enquanto ninguém está disponível.</p>
+    <p style="font-size:17px;line-height:1.7;color:#B0BDCA;max-width:720px;margin-top:36px;">A IA não substitui automaticamente o relacionamento humano. Ela evita que o cliente seja ignorado enquanto ninguém está disponível.</p>
   </div>
 </section>
 

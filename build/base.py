@@ -59,7 +59,7 @@ JS_FORM = """
       method:'POST',headers:{'Accept':'application/json'},body:fd
     }).then(function(r){
       if(!r.ok){throw new Error('HTTP '+r.status);}
-      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#3A606F;font-size:20px;font-weight:700;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#D2D9DE;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
+      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#3A606F;font-size:20px;font-weight:700;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#B0BDCA;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
     }).catch(function(){
       btn.disabled=false;btn.textContent=btn.dataset.label||'Solicitar diagnóstico de IA';
       alert('Não foi possível enviar agora. Tente novamente ou fale direto pelo WhatsApp (27) 92000-0167.');
@@ -155,9 +155,9 @@ CTA_DIAG = """
   <div style="max-width:900px;margin:0 auto;text-align:center;">
     <h2 style="font-size:32px;font-weight:700;color:#fff;margin-bottom:18px;">Antes de contratar outra ferramenta, descubra onde a IA realmente pode gerar resultado</h2>
     <p style="font-size:17px;line-height:1.7;color:#98A2B3;max-width:640px;margin:0 auto 36px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
-    <a href="/diagnostico-de-ia/" style="display:inline-block;background:#3A606F;color:#133A58;font-weight:700;font-size:16px;padding:16px 30px;border-radius:8px;">Solicitar diagnóstico de IA</a>
+    <a href="/diagnostico-de-ia/" style="display:inline-block;background:#133A58;color:#fff;font-weight:700;font-size:16px;padding:16px 30px;border-radius:8px;">Solicitar diagnóstico de IA</a>
     <div style="margin-top:24px;">
-      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#3A606F;font-weight:600;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
+      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#fff;font-weight:700;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
     </div>
   </div>
 </section>"""

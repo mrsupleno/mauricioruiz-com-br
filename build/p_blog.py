@@ -15,7 +15,7 @@ MAIN = f"""
       <h1 style="font-size:44px;line-height:1.15;font-weight:800;color:#133A58;margin-bottom:24px;">Inteligência Artificial sem teatro</h1>
       <p style="font-size:18px;line-height:1.7;color:#475467;margin-bottom:30px;max-width:640px;">Conteúdos sobre IA aplicada, automação, agentes inteligentes e processos empresariais — com foco em decisão, implantação e resultado.</p>
       <div style="display:flex;flex-wrap:wrap;gap:14px;">
-        <a href="/diagnostico-de-ia/" style="background:#3A606F;color:#133A58;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">Solicitar diagnóstico</a>
+        <a href="/diagnostico-de-ia/" style="background:#133A58;color:#fff;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">Solicitar diagnóstico</a>
         <a href="/mentoria-implantacao-ia/" style="background:#fff;border:1px solid #B0BDCA;color:#133A58;font-weight:600;font-size:16px;padding:16px 26px;border-radius:8px;">Ver mentoria</a>
       </div>
     </div>

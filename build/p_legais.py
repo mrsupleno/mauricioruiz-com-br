@@ -110,7 +110,7 @@ MAIN_404 = """
     <p style="font-size:64px;font-weight:800;color:#3A606F;margin-bottom:12px;">404</p>
     <h1 style="font-size:32px;font-weight:700;color:#133A58;margin-bottom:16px;">Esta página não existe</h1>
     <p style="font-size:16.5px;color:#475467;margin-bottom:32px;">O endereço pode ter mudado ou foi digitado incorretamente.</p>
-    <a href="/" style="display:inline-block;background:#3A606F;color:#133A58;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Voltar para o início</a>
+    <a href="/" style="display:inline-block;background:#133A58;color:#fff;font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;">Voltar para o início</a>
   </div>
 </section>"""
 (ROOT/"404.html").write_text(page(
