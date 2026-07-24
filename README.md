@@ -40,6 +40,7 @@ robots.txt / sitemap.xml       SEO técnico (atualizar sitemap ao criar página)
 cd build
 python3 p_mentoria.py        # regenera mentoria-implantacao-ia/index.html
 python3 p_servicos.py        # regenera agentes/automacao/whatsapp
+python3 p_money_pages.py     # regenera money pages do Link Flow
 python3 p_institucional.py   # regenera sobre/diagnostico/contato
 python3 p_legais.py          # regenera legais + robots + sitemap + 404
 ```
@@ -49,6 +50,6 @@ Mudou a home → rode os 4 geradores para propagar.
 
 ## Fase 2 (pendente)
 
-- `/automacao-marketing-vendas/`, `/integracao-ia-sistemas/`, `/treinamento-inteligencia-artificial/`
+- [x] `/automacao-marketing-vendas/`, `/integracao-ia-sistemas/`, `/treinamento-inteligencia-artificial/`
 - `/blog/` + artigos (clusters do doc 05)
 - Cards da home que hoje apontam para `/diagnostico-de-ia/` devem apontar para as páginas reais quando existirem

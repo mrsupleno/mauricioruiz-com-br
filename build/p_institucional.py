@@ -88,6 +88,29 @@ write("sobre/index.html", page(
 print("OK sobre")
 
 # ============================================================ DIAGNÓSTICO (form enxuto)
+DIAG_FAQS = [
+    ("O diagnóstico de IA é uma consultoria completa?",
+     "Não. O diagnóstico é a etapa inicial para entender processos, riscos e prioridades. A implantação vem depois, quando existe clareza sobre o que deve ser automatizado."),
+    ("Preciso já saber qual ferramenta de IA usar?",
+     "Não. Escolher ferramenta antes de entender o processo costuma gerar desperdício. A ferramenta entra depois da prioridade definida."),
+    ("O atendimento pode ser presencial?",
+     "Sim, especialmente para empresas de Vila Velha e Grande Vitória. Projetos nacionais também podem ser conduzidos por atendimento remoto."),
+]
+DIAG_SERVICE = json.dumps({"@context":"https://schema.org", "@graph":[
+    {"@type":"ProfessionalService","@id":"https://mauricioruiz.com.br/#profissional",
+     "name":"Mauricio Ruiz | Mentor de Inteligência Artificial",
+     "url":"https://mauricioruiz.com.br/","telephone":"+55-27-92000-0167",
+     "address":{"@type":"PostalAddress","streetAddress":"Rua Marajó, 77, Unidade 402",
+                "addressLocality":"Vila Velha","addressRegion":"ES","postalCode":"29101-250","addressCountry":"BR"},
+     "openingHours":"Mo-Fr 09:00-18:00",
+     "areaServed":["Vila Velha","Vitória","Grande Vitória","Espírito Santo","Brasil"]},
+    {"@type":"Service","@id":"https://mauricioruiz.com.br/diagnostico-de-ia/#servico",
+     "name":"Diagnóstico de IA para Empresas",
+     "description":"Diagnóstico para identificar processos, riscos, prioridades e oportunidades de implantação de Inteligência Artificial em empresas.",
+     "provider":{"@id":"https://mauricioruiz.com.br/#profissional"},
+     "areaServed":["Vila Velha","Vitória","Grande Vitória","Espírito Santo","Brasil"],
+     "url":"https://mauricioruiz.com.br/diagnostico-de-ia/"}
+]}, ensure_ascii=False, indent=1)
 BC = [("Início","/"),("Diagnóstico de IA",None)]
 MAIN = f"""
 {breadcrumb(BC)}
@@ -153,11 +176,13 @@ MAIN = f"""
     </div>
   </div>
 </section>
+
+{faq_html(DIAG_FAQS)}
 """
 write("diagnostico-de-ia/index.html", page(
     "Diagnóstico de IA para Empresas | Mauricio Ruiz",
     "Identifique onde a Inteligência Artificial pode gerar resultado na sua empresa: processos promissores, riscos, prioridades e primeiros projetos.",
-    "/diagnostico-de-ia/", MAIN, schemas=[breadcrumb_schema(BC)]))
+    "/diagnostico-de-ia/", MAIN, schemas=[DIAG_SERVICE, breadcrumb_schema(BC), faq_schema(DIAG_FAQS)]))
 print("OK diagnostico")
 
 # ============================================================ CONTATO

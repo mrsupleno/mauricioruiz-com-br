@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--grafite:#133A58;--azul:#2C4964;--ciano:#3A606F;}
+:root{--azul-marinho:#133A58;--azul-institucional:#2C4964;--grafite-tecnologico:#383D44;--azul-petroleo:#3A606F;--prata-azulada:#B0BDCA;}
 html{scroll-behavior:smooth;}
 section[id],footer[id]{scroll-margin-top:88px;}
 body{margin:0;background:#ffffff;color:#383D44;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
@@ -64,6 +64,53 @@ details[open] .faq-icon{transform:rotate(45deg);}
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://mauricioruiz.com.br/#profissional",
+   "name": "Mauricio Ruiz | Mentor de Inteligência Artificial",
+   "url": "https://mauricioruiz.com.br/",
+   "telephone": "+55-27-92000-0167",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Marajó, 77, Unidade 402",
+    "addressLocality": "Vila Velha",
+    "addressRegion": "ES",
+    "postalCode": "29101-250",
+    "addressCountry": "BR"
+   },
+   "openingHours": "Mo-Fr 09:00-18:00",
+   "areaServed": [
+    "Vila Velha",
+    "Vitória",
+    "Grande Vitória",
+    "Espírito Santo",
+    "Brasil"
+   ]
+  },
+  {
+   "@type": "Service",
+   "@id": "https://mauricioruiz.com.br/diagnostico-de-ia/#servico",
+   "name": "Diagnóstico de IA para Empresas",
+   "description": "Diagnóstico para identificar processos, riscos, prioridades e oportunidades de implantação de Inteligência Artificial em empresas.",
+   "provider": {
+    "@id": "https://mauricioruiz.com.br/#profissional"
+   },
+   "areaServed": [
+    "Vila Velha",
+    "Vitória",
+    "Grande Vitória",
+    "Espírito Santo",
+    "Brasil"
+   ],
+   "url": "https://mauricioruiz.com.br/diagnostico-de-ia/"
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
  "@type": "BreadcrumbList",
  "itemListElement": [
   {
@@ -76,6 +123,38 @@ details[open] .faq-icon{transform:rotate(45deg);}
    "@type": "ListItem",
    "position": 2,
    "name": "Diagnóstico de IA"
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "O diagnóstico de IA é uma consultoria completa?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. O diagnóstico é a etapa inicial para entender processos, riscos e prioridades. A implantação vem depois, quando existe clareza sobre o que deve ser automatizado."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Preciso já saber qual ferramenta de IA usar?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. Escolher ferramenta antes de entender o processo costuma gerar desperdício. A ferramenta entra depois da prioridade definida."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "O atendimento pode ser presencial?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Sim, especialmente para empresas de Vila Velha e Grande Vitória. Projetos nacionais também podem ser conduzidos por atendimento remoto."
+   }
   }
  ]
 }
@@ -181,6 +260,32 @@ details[open] .faq-icon{transform:rotate(45deg);}
         <h3 style="font-size:17px;font-weight:700;color:#133A58;margin:6px 0 8px;">Direção clara</h3>
         <p style="font-size:14.5px;line-height:1.6;color:#667085;">Você sai sabendo o que automatizar, o que reorganizar antes e o que deixar humano.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#F6F8FA;padding:88px 24px;">
+  <div style="max-width:840px;margin:0 auto;">
+    <h2 style="font-size:34px;font-weight:700;color:#133A58;margin-bottom:36px;">Perguntas frequentes</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;">
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>O diagnóstico de IA é uma consultoria completa?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Não. O diagnóstico é a etapa inicial para entender processos, riscos e prioridades. A implantação vem depois, quando existe clareza sobre o que deve ser automatizado.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Preciso já saber qual ferramenta de IA usar?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Não. Escolher ferramenta antes de entender o processo costuma gerar desperdício. A ferramenta entra depois da prioridade definida.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>O atendimento pode ser presencial?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Sim, especialmente para empresas de Vila Velha e Grande Vitória. Projetos nacionais também podem ser conduzidos por atendimento remoto.</p>
+</details>
     </div>
   </div>
 </section>

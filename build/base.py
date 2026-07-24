@@ -157,7 +157,7 @@ CTA_DIAG = """
     <p style="font-size:17px;line-height:1.7;color:#98A2B3;max-width:640px;margin:0 auto 36px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
     <a href="/diagnostico-de-ia/" style="display:inline-block;background:#B0BDCA;color:#133A58;font-weight:800;font-size:16px;padding:16px 30px;border-radius:8px;box-shadow:0 10px 24px rgba(19,58,88,.22);">Solicitar diagnóstico de IA</a>
     <div style="margin-top:24px;">
-      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#133A58;font-weight:800;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
+      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#B0BDCA;font-weight:800;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
     </div>
   </div>
 </section>"""

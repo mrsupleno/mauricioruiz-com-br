@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integração de IA com CRM e ERP | Mauricio Ruiz</title>
+<meta name="description" content="Integração de IA com os sistemas que sua empresa já usa. Acabe com a digitação repetida entre WhatsApp, CRM e ERP. Fale no WhatsApp e mapeie sua operação.">
+<link rel="canonical" href="https://mauricioruiz.com.br/integracao-ia-sistemas/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Integração de IA com CRM e ERP | Mauricio Ruiz">
+<meta property="og:description" content="Integração de IA com os sistemas que sua empresa já usa. Acabe com a digitação repetida entre WhatsApp, CRM e ERP. Fale no WhatsApp e mapeie sua operação.">
+<meta property="og:url" content="https://mauricioruiz.com.br/integracao-ia-sistemas/">
+<meta property="og:locale" content="pt_BR">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-logo-sobria-192.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon-logo-sobria.png">
+<meta property="og:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og-miniatura-final.jpg">
+<meta property="og:image:secure_url" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og-miniatura-final.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="672">
+<meta property="og:image:alt" content="Mauricio Ruiz — Mentor de Inteligência Artificial e Automação Empresarial">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mauricio Ruiz | IA e Automação Empresarial">
+<meta name="twitter:description" content="Estratégia antes da ferramenta. Mentoria, agentes de IA e automações para reduzir tarefas repetitivas e transformar tecnologia em resultado.">
+<meta name="twitter:image" content="https://mauricioruiz.com.br/assets/mauricio-ruiz-og-miniatura-final.jpg">
+<meta name="theme-color" content="#133A58">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--azul-marinho:#133A58;--azul-institucional:#2C4964;--grafite-tecnologico:#383D44;--azul-petroleo:#3A606F;--prata-azulada:#B0BDCA;}
+html{scroll-behavior:smooth;}
+section[id],footer[id]{scroll-margin-top:88px;}
+body{margin:0;background:#ffffff;color:#383D44;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+*{box-sizing:border-box;}
+a{color:#2C4964;text-decoration:none;}
+a:hover{color:#2C4964;}
+h1,h2,h3{font-family:'Manrope',sans-serif;margin:0;letter-spacing:-0.02em;}
+summary::-webkit-details-marker{display:none;}
+summary:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #3A606F;outline-offset:2px;}
+details[open] .faq-icon{transform:rotate(45deg);}
+.faq-icon{transition:transform .2s;display:inline-block;}
+.skip-link{position:absolute;left:-9999px;top:0;background:#133A58;color:#fff;padding:12px 20px;font-weight:600;z-index:999;}
+.skip-link:focus{left:16px;top:16px;}
+@media (max-width:1023px){
+  .desktop-nav{display:none !important;}
+  #burgerBtn{display:flex !important;align-items:center;justify-content:center;}
+}
+@media (min-width:1024px){#mobileMenu{display:none !important;}}
+@media (max-width:899px){
+  .g-hero,.g-sobre,.g-pq,.g-2,.g-footer{grid-template-columns:1fr !important;}
+  .g-4,.g-5,.g-3,.g-7{grid-template-columns:1fr 1fr !important;}
+  h1{font-size:34px !important;}
+  .two-col,.cards-3{grid-template-columns:1fr !important;}
+}
+@media (max-width:559px){
+  .g-4,.g-5,.g-3,.g-7,.g-pqi{grid-template-columns:1fr !important;}
+  form#diagForm{grid-template-columns:1fr !important;}
+  h1{font-size:28px !important;}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important;}html{scroll-behavior:auto !important;}}
+
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://mauricioruiz.com.br/#profissional",
+   "name": "Mauricio Ruiz | Mentor de Inteligência Artificial",
+   "url": "https://mauricioruiz.com.br/",
+   "telephone": "+55-27-92000-0167",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Marajó, 77, Unidade 402",
+    "addressLocality": "Vila Velha",
+    "addressRegion": "ES",
+    "postalCode": "29101-250",
+    "addressCountry": "BR"
+   },
+   "openingHours": "Mo-Fr 09:00-18:00",
+   "areaServed": [
+    "Brasil"
+   ]
+  },
+  {
+   "@type": "Service",
+   "@id": "https://mauricioruiz.com.br/integracao-ia-sistemas/#servico",
+   "name": "Integração de IA com CRM, ERP e os sistemas que sua empresa já usa",
+   "description": "Integração de IA com os sistemas que sua empresa já usa. Acabe com a digitação repetida entre WhatsApp, CRM e ERP. Fale no WhatsApp e mapeie sua operação.",
+   "provider": {
+    "@id": "https://mauricioruiz.com.br/#profissional"
+   },
+   "areaServed": [
+    "Brasil"
+   ],
+   "url": "https://mauricioruiz.com.br/integracao-ia-sistemas/"
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Início",
+   "item": "https://mauricioruiz.com.br/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Integração de IA com CRM, ERP e os sistemas que sua empresa já usa"
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Meu sistema é antigo. Dá para integrar?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Depende de ele permitir acesso externo. Sistemas antigos às vezes oferecem exportação de arquivo, o que já resolve parte. Isso é verificado antes de qualquer proposta de construção."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Preciso trocar de ERP ou CRM?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Na maioria dos casos não. A ideia é justamente aproveitar o que já existe. Troca de sistema é projeto caro e demorado, e só se justifica quando o sistema atual é o próprio problema."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Isso é seguro? Meus dados vão para onde?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "A integração acontece entre os seus sistemas. O desenho define quais dados trafegam e para onde, e isso é acordado antes da construção. Dado que não precisa circular, não circula."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "E se o sistema mudar de versão depois?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Integração precisa de manutenção, como qualquer parte da operação. Mudanças de versão podem exigir ajuste, e isso entra no combinado desde o início em vez de virar surpresa."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Quanto tempo leva?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Depende de quantos sistemas e de quão abertos eles são. Integrações simples entre ferramentas modernas saem rápido. Sistemas fechados ou sob medida levam mais tempo e às vezes não saem — e você fica sabendo antes de pagar pela construção."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Minha equipe precisa aprender algo novo?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Idealmente o contrário: a integração deve reduzir o número de telas que a pessoa abre. Quando bem feita, a equipe percebe menos trabalho, não mais."
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+<header style="position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid #B0BDCA;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;">
+    <a href="/" aria-label="Mauricio Ruiz | Mentor de Inteligência Artificial" style="display:flex;align-items:center;gap:12px;color:#133A58;line-height:1.1;min-width:230px;">
+      <img src="/assets/favicon-logo-sobria-192.png" alt="" width="44" height="44" style="display:block;width:44px;height:44px;object-fit:contain;flex:0 0 auto;">
+      <span style="display:flex;flex-direction:column;gap:3px;">
+        <span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:19px;letter-spacing:-.02em;color:#133A58;">Mauricio Ruiz</span>
+        <span style="font-size:12px;color:#667085;font-weight:600;white-space:nowrap;">Mentor de Inteligência Artificial</span>
+      </span>
+    </a>
+    <nav style="display:flex;align-items:center;gap:28px;" class="desktop-nav" id="mainNav">
+      <a href="/#confronto" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Início</a>
+      <a href="/mentoria-implantacao-ia/" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Mentoria</a>
+      <a href="/agentes-de-ia/" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Agentes de IA</a>
+      <a href="/#servicos" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Automação</a>
+      <a href="/sobre/" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Sobre</a>
+      <a href="/#conteudos" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Conteúdos</a>
+      <a href="/contato/" style="display:inline-block;color:#383D44;font-size:15px;font-weight:500;">Contato</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <a href="/diagnostico-de-ia/" style="background:#133A58;color:#fff;font-weight:700;font-size:14px;padding:12px 20px;border-radius:8px;white-space:nowrap;">Solicitar diagnóstico</a>
+      <button id="burgerBtn" onclick="void(0)" aria-label="Abrir menu" aria-expanded="false" style="display:none;background:none;border:1px solid #B0BDCA;border-radius:8px;width:44px;height:44px;font-size:20px;cursor:pointer;">☰</button>
+    </div>
+  </div>
+  
+    <nav id="mobileMenu" style="display:none;flex-direction:column;padding:8px 24px 20px;gap:4px;border-top:1px solid #B0BDCA;background:#fff;">
+      <a href="/#confronto" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;border-bottom:1px solid #F6F8FA;">Início</a>
+      <a href="/mentoria-implantacao-ia/" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;border-bottom:1px solid #F6F8FA;">Mentoria</a>
+      <a href="/agentes-de-ia/" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;border-bottom:1px solid #F6F8FA;">Agentes de IA</a>
+      <a href="/#servicos" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;border-bottom:1px solid #F6F8FA;">Automação</a>
+      <a href="/sobre/" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;border-bottom:1px solid #F6F8FA;">Sobre</a>
+      <a href="/#conteudos" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;border-bottom:1px solid #F6F8FA;">Conteúdos</a>
+      <a href="/contato/" style="padding:12px 0;color:#383D44;font-size:16px;font-weight:500;">Contato</a>
+    </nav>
+  
+</header><main id="conteudo">
+
+<nav aria-label="Breadcrumb" style="background:#F6F8FA;border-bottom:1px solid #B0BDCA;padding:12px 24px;font-size:13.5px;">
+  <div style="max-width:1200px;margin:0 auto;"><a href="/" style="color:#667085;">Início</a><span style="color:#B0BDCA;margin:0 8px;">/</span><span style="color:#133A58;font-weight:600;">Integração de IA com CRM, ERP e os sistemas que sua empresa já usa</span></div>
+</nav>
+
+<section style="background:#ffffff;padding:72px 24px 82px;">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;" class="g-hero">
+    <div>
+      <span style="display:inline-block;background:#F6F8FA;border:1px solid #B0BDCA;color:#3A606F;font-size:13px;font-weight:800;padding:7px 14px;border-radius:100px;margin-bottom:20px;">Consultoria nacional</span>
+      <h1 style="font-size:44px;line-height:1.14;font-weight:800;color:#133A58;margin-bottom:24px;max-width:820px;">Integração de IA com CRM, ERP e os sistemas que sua empresa já usa</h1>
+      <div style="font-size:18px;line-height:1.7;color:#475467;max-width:720px;margin-bottom:32px;"><p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">A maior parte do desperdício de tempo numa empresa não está numa tarefa difícil. Está em alguém copiando dado de uma tela para outra, várias vezes por dia, todos os dias. Integração de ia com sistemas existe para acabar com esse trabalho invisível — e para que a informação circule sozinha entre as ferramentas que você já paga.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Se sua equipe digita a mesma informação em mais de um lugar, <strong>fale no WhatsApp</strong> e vamos mapear onde isso acontece.</p></div>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;">
+        <a href="/diagnostico-de-ia/" style="background:#133A58;color:#fff;font-weight:800;font-size:16px;padding:16px 26px;border-radius:8px;box-shadow:0 10px 24px rgba(19,58,88,.24);">Solicitar diagnóstico de IA</a>
+        <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="background:#fff;border:1px solid #B0BDCA;color:#133A58;font-weight:700;font-size:16px;padding:16px 26px;border-radius:8px;">Falar pelo WhatsApp</a>
+      </div>
+    </div>
+    <aside style="background:linear-gradient(135deg,#133A58 0%,#2C4964 52%,#3A606F 100%);border-radius:20px;padding:34px;box-shadow:0 24px 70px rgba(19,58,88,.22);">
+      <p style="font-size:13px;font-weight:800;color:#B0BDCA;text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px;">Estratégia antes da ferramenta</p>
+      <p style="font-size:24px;line-height:1.38;font-weight:800;color:#fff;margin-bottom:18px;">IA não começa escolhendo software. Começa decidindo qual problema merece ser resolvido.</p>
+      <p style="font-size:15px;line-height:1.65;color:#B0BDCA;">Diagnóstico, priorização, implantação e treinamento para transformar inteligência artificial em processo de negócio.</p>
+    </aside>
+  </div>
+</section>
+
+<section style="background:#F6F8FA;padding:78px 24px;">
+  <div style="max-width:920px;margin:0 auto;">
+    <h2 style="font-size:32px;line-height:1.22;font-weight:800;color:#133A58;margin-bottom:22px;">Sua equipe está trabalhando ou está copiando dado de um sistema para outro?</h2>
+    <p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Vale cronometrar antes de responder.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">O pedido chega pelo WhatsApp. Alguém copia para a planilha. Depois digita no ERP. Depois avisa o financeiro por e-mail. Quatro etapas manuais para uma única venda — e em cada uma delas existe chance de erro de digitação, de esquecimento e de versão desatualizada.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Ninguém considera isso um problema porque está diluído: são cinco minutos aqui, dez ali. No fim do mês viraram dias inteiros de trabalho que ninguém contabiliza e que não geram nada.</p>
+  </div>
+</section>
+
+<section style="background:#fff;padding:78px 24px;">
+  <div style="max-width:980px;margin:0 auto;border-left:6px solid #B0BDCA;padding-left:28px;">
+    <h2 style="font-size:31px;line-height:1.24;font-weight:800;color:#133A58;margin-bottom:22px;">Onde a falta de integração custa caro</h2>
+    <p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Retrabalho de digitação.</strong> O mesmo dado inserido três vezes consome três vezes o tempo e cria três chances de divergência.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Informação desencontrada.</strong> O vendedor promete um prazo que o estoque não confirma, porque cada um olha uma fonte diferente.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Atraso na decisão.</strong> O relatório que orienta a decisão da semana leva dois dias para ser montado à mão. Quando fica pronto, a decisão já foi tomada no escuro.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Dependência de pessoa.</strong> Só uma pessoa sabe montar aquele consolidado. Quando ela falta, a empresa fica sem enxergar.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Erro silencioso.</strong> Um dígito trocado numa planilha não avisa ninguém. Ele aparece semanas depois, como problema de cobrança ou de estoque.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Crescimento travado pelo processo.</strong> Enquanto o volume é pequeno, a ponte manual funciona. Quando dobra, ela quebra — e a empresa contrata mais gente para sustentar um processo que não deveria existir. É o tipo de custo que entra na folha e nunca mais sai.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Vale notar que nada disso aparece num relatório. Não existe linha de despesa chamada &quot;digitação repetida&quot;. O custo está diluído no salário de gente qualificada fazendo trabalho de copiar e colar, e por isso passa anos sem ser questionado.</p>
+  </div>
+</section>
+
+<section style="background:#133A58;padding:78px 24px;">
+  <div style="max-width:980px;margin:0 auto;background:#fff;border:1px solid #B0BDCA;border-radius:18px;padding:34px;box-shadow:0 20px 60px rgba(19,58,88,.18);">
+    <h2 style="font-size:31px;line-height:1.24;font-weight:800;color:#133A58;margin-bottom:22px;">O que a integração resolve na prática</h2>
+    <ul style="margin:0 0 18px 20px;color:#475467;font-size:16.5px;line-height:1.75;"><li><strong>Entrada única do dado.</strong> A informação entra uma vez e aparece automaticamente onde precisa estar.</li><li><strong>Fluxo entre WhatsApp, CRM e ERP.</strong> A conversa vira registro sem alguém transcrever.</li><li><strong>Relatório que se monta sozinho.</strong> O consolidado fica pronto sem depender de garimpo manual.</li><li><strong>Alerta em vez de conferência.</strong> Em vez de alguém revisar planilha procurando problema, o sistema avisa quando algo sai do padrão.</li><li><strong>Histórico completo do cliente.</strong> Quem atende vê o que já aconteceu antes, sem perguntar de novo o que o cliente já respondeu.</li><li><strong>Rastreio de onde cada informação veio.</strong> Quando o dado circula sozinho, fica registrado por onde passou. Isso encurta muito a investigação quando algo dá errado e alguém precisa entender em que ponto a informação se perdeu.</li></ul>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">O efeito prático costuma aparecer primeiro na sensação da equipe: a pessoa percebe que parou de abrir três telas para concluir uma tarefa. Só depois o ganho aparece no indicador.</p>
+  </div>
+</section>
+
+<section style="background:#F6F8FA;padding:78px 24px;">
+  <div style="max-width:920px;margin:0 auto;">
+    <h2 style="font-size:32px;line-height:1.22;font-weight:800;color:#133A58;margin-bottom:22px;">Como funciona o trabalho</h2>
+    <p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>1. Mapa dos sistemas.</strong> Quais ferramentas existem, quem usa cada uma e quais dados transitam entre elas. Quase sempre aparecem sistemas que ninguém tinha citado.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>2. Identificação dos pontos manuais.</strong> Onde uma pessoa serve de ponte entre dois sistemas. Esses são os alvos.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>3. Verificação de viabilidade.</strong> Nem todo sistema permite integração. Alguns têm API aberta, outros não. Isso é checado antes de qualquer promessa — e se não der, eu falo.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>4. Construção e teste.</strong> A integração é montada e testada com dados reais, em ambiente controlado, antes de tocar a operação.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>5. Virada por etapa.</strong> Um fluxo de cada vez, com o processo manual mantido como retaguarda até a confiança se estabelecer.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>6. Documentação.</strong> Sua equipe recebe o registro do que foi integrado e como funciona, para não depender de mim depois.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Solicite o diagnóstico</strong> e me diga quais sistemas sua empresa usa hoje.</p>
+  </div>
+</section>
+
+<section style="background:#fff;padding:78px 24px;">
+  <div style="max-width:980px;margin:0 auto;border-left:6px solid #B0BDCA;padding-left:28px;">
+    <h2 style="font-size:31px;line-height:1.24;font-weight:800;color:#133A58;margin-bottom:22px;">O aviso honesto sobre integração</h2>
+    <p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Este é o serviço com maior chance de encontrar obstáculo técnico, e prefiro dizer antes.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Alguns sistemas — principalmente softwares antigos ou feitos sob medida — não oferecem forma segura de integração. Quando é esse o caso, existem três caminhos: trabalhar com o que der, criar uma ponte parcial, ou aceitar que aquele ponto continua manual.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">O que eu não faço é prometer integração com sistema que não permite e descobrir isso no meio do projeto. A viabilidade é verificada na etapa 3, antes de você investir na construção.</p>
+  </div>
+</section>
+
+<section style="background:#133A58;padding:78px 24px;">
+  <div style="max-width:980px;margin:0 auto;background:#fff;border:1px solid #B0BDCA;border-radius:18px;padding:34px;box-shadow:0 20px 60px rgba(19,58,88,.18);">
+    <h2 style="font-size:31px;line-height:1.24;font-weight:800;color:#133A58;margin-bottom:22px;">Resultado medido, não prometido</h2>
+    <p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">O ganho aqui é direto e fácil de medir: horas que deixam de ser gastas em digitação e conferência.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Antes de começar, registramos quanto tempo por semana a equipe gasta naquele trajeto manual. Depois da integração, a comparação é objetiva — e costuma ser a mais fácil de enxergar entre todos os trabalhos que faço, porque o tempo economizado aparece na rotina já na primeira semana.</p>
+  </div>
+</section>
+
+<section style="background:#F6F8FA;padding:78px 24px;">
+  <div style="max-width:920px;margin:0 auto;">
+    <h2 style="font-size:32px;line-height:1.22;font-weight:800;color:#133A58;margin-bottom:22px;">Regiões atendidas</h2>
+    <p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Atendemos empresas de <strong>Vila Velha, Vitória, Serra e toda a Grande Vitória</strong>, no Espírito Santo, presencialmente, e o restante do Brasil de forma remota. Integração é um trabalho que funciona bem à distância, já que boa parte acontece com acesso aos sistemas.</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;">Costuma andar junto com [automação empresarial](/automacao-empresarial/) e com [agentes de IA](/agentes-de-ia/). Se ainda não está claro qual é a prioridade da sua empresa, comece pela [consultoria de IA](/consultoria-de-ia/).</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Mauricio Ruiz — Mentor de Inteligência Artificial</strong> Rua Marajó, 77, Unidade 402 — Praia da Costa, Vila Velha/ES, CEP 29101-250 WhatsApp: (27) 92000-0167 · Atendimento humano de segunda a sexta, das 9h às 18h</p>
+<p style="font-size:16.5px;line-height:1.75;color:#475467;margin:0 0 18px;"><strong>Entre em contato</strong> com a lista dos sistemas que sua empresa usa e eu digo o que é possível.</p>
+  </div>
+</section>
+
+<section style="background:#fff;padding:78px 24px;">
+  <div style="max-width:980px;margin:0 auto;border-left:6px solid #B0BDCA;padding-left:28px;">
+    <h2 style="font-size:31px;line-height:1.24;font-weight:800;color:#133A58;margin-bottom:22px;">Perguntas frequentes</h2>
+    
+  </div>
+</section>
+
+<section style="background:#F6F8FA;padding:72px 24px;">
+  <div style="max-width:920px;margin:0 auto;">
+    <h2 style="font-size:28px;font-weight:800;color:#133A58;margin-bottom:24px;">Próximos passos relacionados</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;" class="g-3"><a href="/automacao-empresarial/" style="display:block;background:#fff;border:1px solid #B0BDCA;border-radius:12px;padding:18px 20px;color:#133A58;font-weight:800;">Automação empresarial →</a>
+<a href="/agentes-de-ia/" style="display:block;background:#fff;border:1px solid #B0BDCA;border-radius:12px;padding:18px 20px;color:#133A58;font-weight:800;">Agentes de IA →</a>
+<a href="/consultoria-de-ia/" style="display:block;background:#fff;border:1px solid #B0BDCA;border-radius:12px;padding:18px 20px;color:#133A58;font-weight:800;">Consultoria de IA →</a></div>
+  </div>
+</section>
+<section style="background:#F6F8FA;padding:88px 24px;">
+  <div style="max-width:840px;margin:0 auto;">
+    <h2 style="font-size:34px;font-weight:700;color:#133A58;margin-bottom:36px;">Perguntas frequentes</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;">
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Meu sistema é antigo. Dá para integrar?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Depende de ele permitir acesso externo. Sistemas antigos às vezes oferecem exportação de arquivo, o que já resolve parte. Isso é verificado antes de qualquer proposta de construção.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Preciso trocar de ERP ou CRM?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Na maioria dos casos não. A ideia é justamente aproveitar o que já existe. Troca de sistema é projeto caro e demorado, e só se justifica quando o sistema atual é o próprio problema.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Isso é seguro? Meus dados vão para onde?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">A integração acontece entre os seus sistemas. O desenho define quais dados trafegam e para onde, e isso é acordado antes da construção. Dado que não precisa circular, não circula.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>E se o sistema mudar de versão depois?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Integração precisa de manutenção, como qualquer parte da operação. Mudanças de versão podem exigir ajuste, e isso entra no combinado desde o início em vez de virar surpresa.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Quanto tempo leva?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Depende de quantos sistemas e de quão abertos eles são. Integrações simples entre ferramentas modernas saem rápido. Sistemas fechados ou sob medida levam mais tempo e às vezes não saem — e você fica sabendo antes de pagar pela construção.</p>
+</details>
+<details style="background:#fff;border:1px solid #B0BDCA;border-radius:12px;overflow:hidden;">
+  <summary style="text-align:left;padding:20px 22px;font-size:16px;font-weight:600;color:#133A58;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;">
+    <span>Minha equipe precisa aprender algo novo?</span><span class="faq-icon" style="color:#3A606F;font-size:18px;flex-shrink:0;">+</span>
+  </summary>
+  <p style="padding:0 22px 22px;font-size:15px;line-height:1.7;color:#475467;margin:0;">Idealmente o contrário: a integração deve reduzir o número de telas que a pessoa abre. Quando bem feita, a equipe percebe menos trabalho, não mais.</p>
+</details>
+    </div>
+  </div>
+</section>
+
+<section style="background:#133A58;padding:88px 24px;">
+  <div style="max-width:900px;margin:0 auto;text-align:center;">
+    <h2 style="font-size:32px;font-weight:700;color:#fff;margin-bottom:18px;">Antes de contratar outra ferramenta, descubra onde a IA realmente pode gerar resultado</h2>
+    <p style="font-size:17px;line-height:1.7;color:#98A2B3;max-width:640px;margin:0 auto 36px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
+    <a href="/diagnostico-de-ia/" style="display:inline-block;background:#B0BDCA;color:#133A58;font-weight:800;font-size:16px;padding:16px 30px;border-radius:8px;box-shadow:0 10px 24px rgba(19,58,88,.22);">Solicitar diagnóstico de IA</a>
+    <div style="margin-top:24px;">
+      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#B0BDCA;font-weight:800;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer id="contato" style="background:#133A58;padding:48px 24px 28px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:32px;margin-bottom:32px;" class="g-footer">
+      <div>
+        <p style="color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;margin-bottom:4px;">Mauricio Ruiz</p>
+        <p style="color:#B0BDCA;font-size:13.5px;margin-bottom:14px;">Mentor de Inteligência Artificial</p>
+        <p style="color:#B0BDCA;font-size:14px;line-height:1.5;margin:0;">Rua Marajó, 77, Unidade 402</p>
+        <p style="color:#B0BDCA;font-size:14px;line-height:1.5;margin:0;">Praia da Costa, Vila Velha – ES</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">CEP 29101-250, Brasil</p>
+      </div>
+      <div>
+        <p style="color:#fff;font-size:14px;font-weight:700;margin-bottom:12px;">Contato</p>
+        <p style="color:#98A2B3;font-size:14px;margin:0 0 6px;">(27) 92000-0167</p>
+        <p style="color:#98A2B3;font-size:14px;margin:0 0 10px;">Segunda a sexta, 9h às 18h</p>
+        <a href="https://wa.me/5527920000167" target="_blank" style="color:#fff;font-size:14px;font-weight:700;">Falar pelo WhatsApp</a>
+      </div>
+      <div>
+        <p style="color:#fff;font-size:14px;font-weight:700;margin-bottom:12px;">Área de atendimento</p>
+        <p style="color:#98A2B3;font-size:14px;line-height:1.5;margin:0;">Vila Velha, Vitória e Grande Vitória — Espírito Santo. Empresas de todo o Brasil por atendimento remoto.</p>
+      </div>
+    </div>
+    <div style="border-top:1px solid #383D44;padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="color:#B0BDCA;font-size:13px;">© 2026 Mauricio Ruiz | Mentor de Inteligência Artificial</p>
+      <div style="display:flex;gap:20px;flex-wrap:wrap;">
+        <a href="/politica-de-privacidade/" style="color:#B0BDCA;font-size:13px;">Política de Privacidade</a>
+        <a href="/politica-de-cookies/" style="color:#B0BDCA;font-size:13px;">Política de Cookies</a>
+        <a href="/termos-de-uso/" style="color:#B0BDCA;font-size:13px;">Termos de Uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var burger=document.getElementById('burgerBtn');
+  var menu=document.getElementById('mobileMenu');
+  burger.addEventListener('click',function(){
+    var open=menu.style.display==='flex';
+    menu.style.display=open?'none':'flex';
+    burger.setAttribute('aria-expanded',String(!open));
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){
+      menu.style.display='none';
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var form=document.getElementById('diagForm');
+  if(!form){return;}
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=e.target;
+    if(f.querySelector('[name=_honey]').value){return;}
+    var btn=f.querySelector('button[type=submit]');
+    btn.disabled=true;btn.textContent='Enviando...';
+    var fd=new FormData(f);
+    fd.delete('_honey');
+    fetch('https://formsubmit.co/ajax/mauricio@sucesso.com.br',{
+      method:'POST',headers:{'Accept':'application/json'},body:fd
+    }).then(function(r){
+      if(!r.ok){throw new Error('HTTP '+r.status);}
+      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#133A58;font-size:20px;font-weight:800;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#383D44;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
+    }).catch(function(){
+      btn.disabled=false;btn.textContent=btn.dataset.label||'Solicitar diagnóstico de IA';
+      alert('Não foi possível enviar agora. Tente novamente ou fale direto pelo WhatsApp (27) 92000-0167.');
+    });
+  });
+})();
+</script>
+</body>
+</html>

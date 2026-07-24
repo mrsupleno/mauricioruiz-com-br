@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera páginas legais, robots.txt, sitemap.xml, 404.html"""
+"""Gera páginas legais, robots.txt, sitemap.xml, 404.html e mapa das money pages."""
 import sys, pathlib
 sys.path.insert(0, "/root/projects/mauricioruiz-com-br/build")
 from base import page, breadcrumb, write
@@ -78,10 +78,15 @@ print("OK robots.txt")
 # ---------- sitemap.xml
 urls = [
     ("/", "1.0", "weekly"),
+    ("/consultoria-de-ia/", "0.95", "monthly"),
+    ("/consultoria-de-ia-vila-velha-es/", "0.9", "monthly"),
     ("/mentoria-implantacao-ia/", "0.9", "monthly"),
     ("/agentes-de-ia/", "0.9", "monthly"),
     ("/automacao-empresarial/", "0.9", "monthly"),
     ("/automacao-atendimento-whatsapp/", "0.9", "monthly"),
+    ("/automacao-marketing-vendas/", "0.85", "monthly"),
+    ("/integracao-ia-sistemas/", "0.85", "monthly"),
+    ("/treinamento-inteligencia-artificial/", "0.85", "monthly"),
     ("/sobre/", "0.7", "monthly"),
     ("/diagnostico-de-ia/", "0.9", "monthly"),
     ("/contato/", "0.6", "yearly"),
