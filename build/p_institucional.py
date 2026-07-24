@@ -92,41 +92,41 @@ BC = [("Início","/"),("Diagnóstico de IA",None)]
 MAIN = f"""
 {breadcrumb(BC)}
 
-<section style="background:#133A58;padding:88px 24px;">
+<section style="background:#B0BDCA;padding:88px 24px;border-top:8px solid #2C4964;border-bottom:8px solid #2C4964;">
   <div style="max-width:900px;margin:0 auto;text-align:center;">
-    <h1 style="font-size:40px;line-height:1.15;font-weight:800;color:#fff;margin-bottom:20px;">Descubra onde a IA realmente pode gerar resultado na sua empresa</h1>
-    <p style="font-size:17px;line-height:1.7;color:#98A2B3;max-width:640px;margin:0 auto 44px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
+    <h1 style="font-size:40px;line-height:1.15;font-weight:800;color:#133A58;margin-bottom:20px;">Descubra onde a IA realmente pode gerar resultado na sua empresa</h1>
+    <p style="font-size:17px;line-height:1.7;color:#383D44;max-width:640px;margin:0 auto 44px;">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
 
-    <div style="background:#383D44;border-radius:16px;padding:36px;text-align:left;max-width:640px;margin:0 auto;">
+    <div style="background:#fff;border:1px solid #B0BDCA;border-radius:18px;padding:36px;text-align:left;max-width:640px;margin:0 auto;box-shadow:0 24px 70px rgba(19,58,88,.22);">
       <form id="diagForm" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
         <input type="hidden" name="_subject" value="Diagnóstico de IA — mauricioruiz.com.br">
         <input type="hidden" name="_template" value="table">
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#B0BDCA;">Nome
-          <input type="text" name="nome" required style="background:#133A58;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#133A58;font-weight:700;">Nome
+          <input type="text" name="nome" required style="background:#F6F8FA;border:1px solid #B0BDCA;border-radius:8px;padding:12px 14px;color:#383D44;font-size:15px;font-family:'Inter',sans-serif;">
         </label>
-        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#B0BDCA;">Empresa
-          <input type="text" name="empresa" required style="background:#133A58;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#133A58;font-weight:700;">Empresa
+          <input type="text" name="empresa" required style="background:#F6F8FA;border:1px solid #B0BDCA;border-radius:8px;padding:12px 14px;color:#383D44;font-size:15px;font-family:'Inter',sans-serif;">
         </label>
-        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#B0BDCA;">Telefone / WhatsApp
-          <input type="tel" name="telefone" required style="background:#133A58;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#133A58;font-weight:700;">Telefone / WhatsApp
+          <input type="tel" name="telefone" required style="background:#F6F8FA;border:1px solid #B0BDCA;border-radius:8px;padding:12px 14px;color:#383D44;font-size:15px;font-family:'Inter',sans-serif;">
         </label>
-        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#B0BDCA;">E-mail
-          <input type="email" name="email" required style="background:#133A58;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#133A58;font-weight:700;">E-mail
+          <input type="email" name="email" required style="background:#F6F8FA;border:1px solid #B0BDCA;border-radius:8px;padding:12px 14px;color:#383D44;font-size:15px;font-family:'Inter',sans-serif;">
         </label>
-        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#B0BDCA;grid-column:1 / -1;">Segmento da empresa
-          <input type="text" name="segmento" required style="background:#133A58;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#133A58;font-weight:700;grid-column:1 / -1;">Segmento da empresa
+          <input type="text" name="segmento" required style="background:#F6F8FA;border:1px solid #B0BDCA;border-radius:8px;padding:12px 14px;color:#383D44;font-size:15px;font-family:'Inter',sans-serif;">
         </label>
-        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#B0BDCA;grid-column:1 / -1;">Qual tarefa sua empresa ainda faz manualmente apenas porque ninguém parou para redesenhar o processo?
-          <textarea name="tarefa" rows="3" style="background:#133A58;border:1px solid #344054;border-radius:8px;padding:12px 14px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;resize:vertical;"></textarea>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#133A58;font-weight:700;grid-column:1 / -1;">Qual tarefa sua empresa ainda faz manualmente apenas porque ninguém parou para redesenhar o processo?
+          <textarea name="tarefa" rows="3" style="background:#F6F8FA;border:1px solid #B0BDCA;border-radius:8px;padding:12px 14px;color:#383D44;font-size:15px;font-family:'Inter',sans-serif;resize:vertical;"></textarea>
         </label>
-        <button type="submit" data-label="Solicitar diagnóstico de IA" style="grid-column:1 / -1;background:#133A58;color:#fff;font-weight:700;font-size:16px;padding:16px;border-radius:8px;border:none;cursor:pointer;font-family:'Inter',sans-serif;">Solicitar diagnóstico de IA</button>
-        <p style="grid-column:1 / -1;color:#B0BDCA;font-size:12.5px;text-align:center;">Seus dados são usados apenas para retorno deste contato. <a href="/politica-de-privacidade/" style="color:#667085;text-decoration:underline;">Política de Privacidade</a></p>
+        <button type="submit" data-label="Solicitar diagnóstico de IA" style="grid-column:1 / -1;background:#3A606F;color:#fff;font-weight:800;font-size:16px;padding:16px;border-radius:8px;border:none;cursor:pointer;font-family:'Inter',sans-serif;box-shadow:0 10px 24px rgba(58,96,111,.28);">Solicitar diagnóstico de IA</button>
+        <p style="grid-column:1 / -1;color:#383D44;font-size:12.5px;text-align:center;">Seus dados são usados apenas para retorno deste contato. <a href="/politica-de-privacidade/" style="color:#2C4964;text-decoration:underline;font-weight:700;">Política de Privacidade</a></p>
       </form>
     </div>
 
     <div style="margin-top:28px;">
-      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#fff;font-weight:700;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
+      <a href="https://wa.me/5527920000167" target="_blank" rel="noopener" style="color:#133A58;font-weight:800;font-size:15px;">Prefere falar direto? Falar pelo WhatsApp →</a>
     </div>
   </div>
 </section>

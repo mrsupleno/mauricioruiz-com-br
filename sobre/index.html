@@ -283,7 +283,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
       method:'POST',headers:{'Accept':'application/json'},body:fd
     }).then(function(r){
       if(!r.ok){throw new Error('HTTP '+r.status);}
-      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#3A606F;font-size:20px;font-weight:700;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#B0BDCA;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
+      f.innerHTML='<div style="text-align:center;padding:24px 0;grid-column:1/-1;"><p style="color:#133A58;font-size:20px;font-weight:800;margin-bottom:10px;">Solicitação recebida.</p><p style="color:#383D44;font-size:15px;">Entraremos em contato dentro do horário comercial: segunda a sexta, das 9h às 18h.</p></div>';
     }).catch(function(){
       btn.disabled=false;btn.textContent=btn.dataset.label||'Solicitar diagnóstico de IA';
       alert('Não foi possível enviar agora. Tente novamente ou fale direto pelo WhatsApp (27) 92000-0167.');
