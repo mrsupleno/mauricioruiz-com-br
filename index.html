@@ -35,6 +35,9 @@
   a:hover{color:#2C4964;}
   h1,h2,h3{font-family:'Manrope',sans-serif;margin:0;letter-spacing:-0.02em;}
   @media (prefers-reduced-motion: reduce){ *{transition:none !important;animation:none !important;} }
+
+  #conteudos a:hover{transform:translateY(-3px);box-shadow:0 18px 42px rgba(16,24,40,.10) !important;border-color:#3A606F !important;}
+  @media(max-width:760px){.section-head-split{display:block !important}.section-head-split>a{margin-top:22px;width:100%;box-sizing:border-box}}
 </style>
 
 
@@ -691,24 +694,33 @@ details[open] .faq-icon{transform:rotate(45deg);}
 
 <section id="conteudos" style="background:#ffffff;padding:88px 24px;">
   <div style="max-width:1200px;margin:0 auto;">
-    <h2 style="font-size:34px;font-weight:700;color:#133A58;margin-bottom:12px;max-width:640px;">Inteligência Artificial sem encantamento e sem exagero</h2>
-    <p style="font-size:17px;color:#475467;margin-bottom:44px;max-width:640px;">Conteúdos para empresários que querem entender onde a IA gera resultado e onde ela apenas cria distração.</p>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:36px;" class="cards-3">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:28px;margin-bottom:38px;" class="section-head-split">
+      <div>
+        <span style="display:inline-block;background:#F6F8FA;border:1px solid #B0BDCA;color:#3A606F;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;padding:7px 14px;border-radius:100px;margin-bottom:16px;">Blog</span>
+        <h2 style="font-size:34px;font-weight:700;color:#133A58;margin-bottom:12px;max-width:690px;">Blog sobre IA e Automação Empresarial</h2>
+        <p style="font-size:17px;color:#475467;margin:0;max-width:700px;line-height:1.65;">Artigos e conteúdos para empresários que querem entender onde a IA gera resultado — e onde ela apenas cria distração.</p>
+      </div>
+      <a href="/blog/" style="display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#133A58;color:#fff;font-weight:800;font-size:15px;padding:14px 20px;border-radius:8px;box-shadow:0 12px 28px rgba(19,58,88,.16);">Ver mais conteúdos →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:10px;" class="cards-3">
       
-        <div style="border:1px solid #B0BDCA;border-radius:14px;padding:28px 24px;">
-          <span style="font-size:12.5px;font-weight:700;color:#3A606F;text-transform:uppercase;letter-spacing:0.03em;">Estratégia</span>
-          <h3 style="font-size:18px;font-weight:700;color:#133A58;margin:10px 0;">Sua empresa precisa de IA ou de processos melhores?</h3>
-        </div>
+        <a href="/mentoria-implantacao-ia/" aria-label="Ler conteúdo: Sua empresa precisa de IA ou de processos melhores?" style="display:block;border:1px solid #B0BDCA;border-radius:14px;padding:28px 24px;color:inherit;background:#fff;min-height:154px;transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;box-shadow:0 10px 28px rgba(16,24,40,.04);">
+          <span style="font-size:12.5px;font-weight:800;color:#3A606F;text-transform:uppercase;letter-spacing:0.05em;">Artigo · Estratégia</span>
+          <h3 style="font-size:18px;font-weight:700;color:#133A58;margin:12px 0 14px;line-height:1.35;">Sua empresa precisa de IA ou de processos melhores?</h3>
+          <span style="font-size:14px;font-weight:800;color:#133A58;">Ler conteúdo →</span>
+        </a>
       
-        <div style="border:1px solid #B0BDCA;border-radius:14px;padding:28px 24px;">
-          <span style="font-size:12.5px;font-weight:700;color:#3A606F;text-transform:uppercase;letter-spacing:0.03em;">Agentes de IA</span>
-          <h3 style="font-size:18px;font-weight:700;color:#133A58;margin:10px 0;">Qual a diferença entre chatbot e agente de IA?</h3>
-        </div>
+        <a href="/agentes-de-ia/" aria-label="Ler conteúdo: Qual a diferença entre chatbot e agente de IA?" style="display:block;border:1px solid #B0BDCA;border-radius:14px;padding:28px 24px;color:inherit;background:#fff;min-height:154px;transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;box-shadow:0 10px 28px rgba(16,24,40,.04);">
+          <span style="font-size:12.5px;font-weight:800;color:#3A606F;text-transform:uppercase;letter-spacing:0.05em;">Artigo · Agentes de IA</span>
+          <h3 style="font-size:18px;font-weight:700;color:#133A58;margin:12px 0 14px;line-height:1.35;">Qual a diferença entre chatbot e agente de IA?</h3>
+          <span style="font-size:14px;font-weight:800;color:#133A58;">Ler conteúdo →</span>
+        </a>
       
-        <div style="border:1px solid #B0BDCA;border-radius:14px;padding:28px 24px;">
-          <span style="font-size:12.5px;font-weight:700;color:#3A606F;text-transform:uppercase;letter-spacing:0.03em;">Automação</span>
-          <h3 style="font-size:18px;font-weight:700;color:#133A58;margin:10px 0;">Dez tarefas repetitivas que sua empresa deveria revisar</h3>
-        </div>
+        <a href="/automacao-empresarial/" aria-label="Ler conteúdo: Dez tarefas repetitivas que sua empresa deveria revisar" style="display:block;border:1px solid #B0BDCA;border-radius:14px;padding:28px 24px;color:inherit;background:#fff;min-height:154px;transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;box-shadow:0 10px 28px rgba(16,24,40,.04);">
+          <span style="font-size:12.5px;font-weight:800;color:#3A606F;text-transform:uppercase;letter-spacing:0.05em;">Artigo · Automação</span>
+          <h3 style="font-size:18px;font-weight:700;color:#133A58;margin:12px 0 14px;line-height:1.35;">Dez tarefas repetitivas que sua empresa deveria revisar</h3>
+          <span style="font-size:14px;font-weight:800;color:#133A58;">Ler conteúdo →</span>
+        </a>
       
     </div>
   </div>
