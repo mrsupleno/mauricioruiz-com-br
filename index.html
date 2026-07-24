@@ -67,16 +67,21 @@ details[open] .faq-icon{transform:rotate(45deg);}
   h1{font-size:34px !important;}
   .two-col,.cards-3{grid-template-columns:1fr !important;}
 }
-@media (max-width:559px){
+@media (max-width:760px){
   .g-4,.g-5,.g-3,.g-7,.g-pqi{grid-template-columns:1fr !important;}
   .waste-grid{grid-template-columns:1fr !important;}
-  .waste-card{display:flex !important;align-items:center !important;text-align:left !important;padding:18px 18px !important;gap:14px !important;}
-  .waste-card p{margin:0 !important;}
+  .waste-card{display:grid !important;grid-template-columns:48px 1fr !important;align-items:center !important;text-align:left !important;padding:18px !important;column-gap:14px !important;}
+  .waste-card > span{margin:0 !important;}
+  .waste-card p{margin:0 !important;text-align:left !important;line-height:1.35 !important;}
   .step-card,.process-step{display:grid !important;grid-template-columns:48px 1fr !important;column-gap:14px !important;align-items:start !important;text-align:left !important;padding:18px !important;border:1px solid #D7DEE8 !important;border-radius:14px !important;background:#fff !important;}
-  .step-card .step-icon,.process-step .process-number{grid-row:1 / span 2 !important;margin:0 !important;}
-  .step-card h3,.process-step h3{margin:0 0 6px !important;align-self:end !important;}
-  .step-card p,.process-step p{margin:0 !important;}
-  .mobile-justify{text-align:justify !important;hyphens:auto;-webkit-hyphens:auto;text-wrap:pretty;}
+  .step-card .step-icon{grid-column:1 !important;grid-row:1 / span 3 !important;margin:0 !important;}
+  .step-card > span:not(.step-icon){grid-column:2 !important;grid-row:1 !important;margin:0 !important;line-height:1.1 !important;}
+  .step-card h3{grid-column:2 !important;grid-row:2 !important;margin:4px 0 6px !important;align-self:start !important;}
+  .step-card p{grid-column:2 !important;grid-row:3 !important;margin:0 !important;text-align:left !important;line-height:1.5 !important;hyphens:none !important;-webkit-hyphens:none !important;}
+  .process-step .process-number{grid-column:1 !important;grid-row:1 / span 2 !important;margin:0 !important;}
+  .process-step h3{grid-column:2 !important;grid-row:1 !important;margin:0 0 6px !important;align-self:center !important;}
+  .process-step p{grid-column:2 !important;grid-row:2 !important;margin:0 !important;text-align:left !important;line-height:1.5 !important;hyphens:none !important;-webkit-hyphens:none !important;}
+  .mobile-justify{text-align:left !important;hyphens:auto;-webkit-hyphens:auto;text-wrap:pretty;}
   form#diagForm{grid-template-columns:1fr !important;}
   h1{font-size:28px !important;}
 }
@@ -220,7 +225,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
     <div style="max-width:760px;margin-bottom:44px;">
       <div style="width:72px;height:4px;background:#B0BDCA;border-radius:999px;margin-bottom:22px;"></div>
       <h2 style="font-size:34px;font-weight:800;color:#fff;margin-bottom:20px;">Onde sua empresa está perdendo tempo sem perceber?</h2>
-      <p style="font-size:17px;line-height:1.7;color:#E6EBF0;margin-bottom:10px;" class="mobile-justify">O desperdício raramente aparece com esse nome no relatório financeiro. Ele aparece em:</p>
+      <p style="font-size:17px;line-height:1.7;color:#E6EBF0;margin-bottom:10px;" >O desperdício raramente aparece com esse nome no relatório financeiro. Ele aparece em:</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:52px;" class="g-5 waste-grid">
       
@@ -262,7 +267,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
   <div style="max-width:1200px;margin:0 auto;">
     <span style="display:inline-block;background:#F6F8FA;border:1px solid #B0BDCA;color:#3A606F;font-size:13px;font-weight:700;padding:6px 14px;border-radius:100px;margin-bottom:20px;">Serviço principal</span>
     <h2 style="font-size:36px;font-weight:700;color:#133A58;margin-bottom:20px;max-width:720px;">Mentoria de Implantação de Inteligência Artificial</h2>
-    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:680px;margin-bottom:16px;" class="mobile-justify">A mentoria transforma a intenção de usar IA em um plano de implantação.</p>
+    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:680px;margin-bottom:16px;" >A mentoria transforma a intenção de usar IA em um plano de implantação.</p>
     <p style="font-size:17px;line-height:1.7;color:#475467;max-width:680px;margin-bottom:52px;" class="mobile-justify">O trabalho começa pelo negócio, pelos processos e pelos resultados esperados. Só depois são escolhidas as ferramentas.</p>
     <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:40px;" class="g-7">
       
@@ -324,7 +329,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
 <section id="servicos" style="background:#F6F8FA;padding:88px 24px;">
   <div style="max-width:1200px;margin:0 auto;">
     <h2 style="font-size:34px;font-weight:700;color:#133A58;margin-bottom:16px;max-width:700px;">Aplicações práticas de Inteligência Artificial</h2>
-    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:640px;margin-bottom:44px;" class="mobile-justify">A tecnologia entra onde existe um problema claro, uma regra definida e um resultado que pode ser acompanhado.</p>
+    <p style="font-size:17px;line-height:1.7;color:#475467;max-width:640px;margin-bottom:44px;" >A tecnologia entra onde existe um problema claro, uma regra definida e um resultado que pode ser acompanhado.</p>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;" class="g-3">
       
         <div style="background:#fff;border:1px solid #B0BDCA;border-radius:14px;padding:30px 26px;display:flex;flex-direction:column;">
@@ -377,7 +382,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
   <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;" class="g-2">
     <div>
       <h2 style="font-size:32px;font-weight:700;color:#133A58;margin-bottom:20px;">Um agente de IA não é apenas um chatbot</h2>
-      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:14px;" class="mobile-justify">Um chatbot tradicional responde com base em caminhos predefinidos.</p>
+      <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:14px;" >Um chatbot tradicional responde com base em caminhos predefinidos.</p>
       <p style="font-size:16.5px;line-height:1.7;color:#475467;margin-bottom:28px;" class="mobile-justify">Um agente de IA pode interpretar uma solicitação, consultar informações, seguir regras, executar tarefas dentro de limites definidos, atualizar sistemas e encaminhar situações para pessoas.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:32px;">
         
@@ -527,7 +532,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
 <section style="background:#ffffff;padding:88px 24px;">
   <div style="max-width:1200px;margin:0 auto;">
     <h2 style="font-size:34px;font-weight:700;color:#133A58;margin-bottom:12px;max-width:640px;">Tecnologia sem processo vira despesa</h2>
-    <p style="font-size:17px;color:#475467;margin-bottom:48px;max-width:640px;" class="mobile-justify">O trabalho não começa instalando ferramentas. Começa entendendo o que precisa mudar.</p>
+    <p style="font-size:17px;color:#475467;margin-bottom:48px;max-width:640px;" >O trabalho não começa instalando ferramentas. Começa entendendo o que precisa mudar.</p>
     <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:44px;" class="g-7">
       
         <div class="process-step" style="text-align:center;">
@@ -841,7 +846,7 @@ details[open] .faq-icon{transform:rotate(45deg);}
 <section id="diagnostico" style="background:#B0BDCA;padding:88px 24px;border-top:8px solid #2C4964;border-bottom:8px solid #2C4964;">
   <div style="max-width:900px;margin:0 auto;text-align:center;">
     <h2 style="font-size:36px;font-weight:800;color:#133A58;margin-bottom:20px;">Antes de contratar outra ferramenta, descubra onde a IA realmente pode gerar resultado</h2>
-    <p style="font-size:17px;line-height:1.7;color:#383D44;max-width:640px;margin:0 auto 44px;" class="mobile-justify">O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
+    <p style="font-size:17px;line-height:1.7;color:#383D44;max-width:640px;margin:0 auto 44px;" >O diagnóstico identifica os processos mais promissores, os riscos, as prioridades e os primeiros projetos que podem ser implantados.</p>
 
     <div style="background:#fff;border:1px solid #B0BDCA;border-radius:18px;padding:36px;text-align:left;max-width:640px;margin:0 auto;box-shadow:0 24px 70px rgba(19,58,88,.22);">
       
